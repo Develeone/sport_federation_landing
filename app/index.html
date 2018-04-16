@@ -20,7 +20,9 @@
     <!-- endbuild -->
 
     <!--build:css css/styles.min.css-->
+    <link rel="stylesheet" href="css/elements.css">
     <link rel="stylesheet" href="css/blocks/header.css">
+    <link rel="stylesheet" href="css/blocks/next_courses.css">
     <!--endbuild-->
 
 </head>
@@ -29,25 +31,60 @@
 <div class="container-fluid header">
     <div class="container">
         <div class="row">
-            <div class="col-md-3 logo"></div>
-            <div class="col-md-8 contacts">
+            <div class="col-sm-3 logo"></div>
+            <div class="col-sm-8 contacts">
                 <span class="phone">8(902)-555-91-87</span>
                 <a href="https://facebook.com"><img src="images/social_icons/facebook.svg" class="social-icon"></a>
                 <a href="https://instagram.com"><img src="images/social_icons/instagram.svg" class="social-icon"></a>
             </div>
-            <div class="col-md-1 menu">
+            <div class="col-sm-1 menu">
                 <img src="images/menu_button.svg" class="button">
             </div>
         </div>
-        <div class="row">
-            Bla-bla-bla
+        <div class="promo">
+            <p class="subject">Образовательная программа</p>
+            <p class="title"><span class="pink">/ Фитнес тренер</span> с нуля</p>
+            <p class="description">Курсы для желающих освоить профессию<br />фитнес-инструктора</p>
+            <p class="buttons-container">
+                <button>Записаться на курс</button>
+                <span><img src="/images/arrow_right.svg" class="arrow"> или получить <b>консультацию</b></span>
+            </p>
+        </div>
+    </div>
+</div>
+<div class="container next-courses">
+    <div class="row">
+        <div class="col-sm-12">
+            <H1>Ближайшие курсы</H1>
+            <H6>Paragraph M</H6>
+
+            <div class="container-fluid list">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <div class="icon">
+                            <img src="images/icons/icon1.svg">
+                        </div>
+                        <p class="description">Международный сертификат фитнес-инструктора FISAF</p>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="icon">
+                            <img src="images/icons/icon2.svg">
+                        </div>
+                        <p class="description">Text text text</p>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="icon">
+                            <img src="images/icons/icon3.svg">
+                        </div>
+                        <p class="description">Text text text</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </div>
 
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
-            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-            crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"
             integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ"

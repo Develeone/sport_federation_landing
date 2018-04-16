@@ -1,10 +1,13 @@
 .header {
-  background: #F2F5FA;
+  background: #F2F5FA url("/images/bg_people.png") no-repeat bottom right 10%;
+  background-size: 45%;
   margin: 30px;
   width: calc(100% - 60px);
-  height: calc(100vh - 60px); }
+  height: 100vh;
+  position: relative;
+  min-height: 650px; }
   .header .logo {
-    background: url("../images/logo.svg") no-repeat center;
+    background: url("/images/logo.svg") no-repeat center;
     background-size: contain;
     height: 100px; }
   .header .contacts {
@@ -21,5 +24,27 @@
       position: relative;
       top: -4px; }
   .header .menu .button {
-    height: 70px;
+    width: 70px;
+    max-width: 150%;
     cursor: pointer; }
+  .header .promo {
+    position: absolute;
+    top: 30%;
+    left: 6%; }
+    .header .promo .subject,
+    .header .promo .title {
+      font-style: italic; }
+    .header .promo .subject,
+    .header .promo .description {
+      font-size: 1.7vw;
+      font-weight: 500; }
+    .header .promo .title {
+      text-transform: uppercase;
+      font-size: 3.4vw;
+      font-weight: bold; }
+      .header .promo .title .pink {
+        color: #FF006D; }
+    .header .promo .buttons-container {
+      margin-top: 20%; }
+      .header .promo .buttons-container .arrow {
+        margin: 0 15px 0 30px; }
