@@ -1,0 +1,44 @@
+@import "../colors.sass"
+
+.place
+  padding-top: 5%
+
+  H1
+    width: 40%
+
+  .gallery-container
+    padding: 0
+    margin: 30px
+    flex: 0 0 calc(100% - 60px)
+
+    .left, .right
+      height: 400px
+
+    .left
+      background: $gray
+
+    .right
+      background: gray url('https://static1.squarespace.com/static/52dbd732e4b0ce276348c412/58eb6a511e5b6c098b91fd56/56a7de7eb2094382065948b0/1453842048003/SAMPLE_DSC_7185-771_v.1.00.jpg?format=750w') center
+      background-size: cover
+
+    .button-prev,
+    .button-next
+      position: absolute
+      left: calc(50% - 1vw)
+      width: 2vw
+      height: 2vw
+      background-size: contain
+      cursor: pointer
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4)
+      transition: opacity 0.3s
+
+      &:hover
+        opacity: 0.7
+
+    .button-prev
+      background-image: url('../../images/button_prev.svg')
+      bottom: 15%
+
+    .button-next
+      background-image: url('../../images/button_next.svg')
+      bottom: 25%

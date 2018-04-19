@@ -1,0 +1,29 @@
+.awards {
+  position: relative;
+  top: -60px;
+  background: white;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+  padding: 7%;
+  margin-left: 5%;
+  width: 90%; }
+  .awards .list {
+    margin-top: 10%; }
+    .awards .list .item .icon {
+      border-radius: 50%;
+      width: 5vw;
+      height: 5vw;
+      padding-top: 12px;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+      text-align: center;
+      background: white;
+      transition: all 0.3s; }
+    .awards .list .item img {
+      transition: all 0.3s; }
+    .awards .list .item:hover .icon {
+      background: #FF006D;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2); }
+      .awards .list .item:hover .icon img {
+        filter: brightness(10); }
+    .awards .list .item .description {
+      margin-top: 15%;
+      width: 80%; }

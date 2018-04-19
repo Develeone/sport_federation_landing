@@ -1,0 +1,21 @@
+<svg width="32" height="32" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="Canvas" fill="none">
+<g id="Group 11.10">
+<g id="Rectangle 4">
+<rect width="32" height="32" fill="white"/>
+<rect x="1" y="1" width="30" height="30" stroke-width="2" stroke="#27AE60"/>
+</g>
+<g id="Group 10">
+<g id="Group">
+<g id="Rectangle 5">
+<rect width="2" height="8" transform="matrix(0.707107 -0.707107 0.707107 0.707107 10.0005 15.6567)" fill="#27AE60"/>
+</g>
+<g id="Rectangle 5.1">
+<rect width="2" height="16.9235" transform="matrix(-0.707107 -0.707107 0.707107 -0.707107 15.6572 21.3135)" fill="#27AE60"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+</svg>
+

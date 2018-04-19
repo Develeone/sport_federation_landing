@@ -1,20 +1,29 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,500,700|Ubuntu&subset=cyrillic");
 body {
+  font-family: 'Roboto', sans-serif; }
+
+H1 {
+  font-weight: bold;
+  font-size: 2vw; }
+
+H1, H2, H3, H4, H5, H6 {
   font-family: Ubuntu; }
 
-button {
+input, button {
   border: 0;
-  background: url("/images/button.svg");
+  outline: none !important;
+  color: white; }
+
+button {
+  background: url("../images/button.svg");
   width: 19vw;
-  height: 4.49vw;
+  height: 4.5vw;
   background-size: contain;
-  color: white;
   font-style: italic;
   text-transform: uppercase;
   text-align: left;
-  padding: 3% 5%;
+  padding: 1.4vw 1.8vw;
   font-weight: 500;
   font-size: 1.2vw;
-  filter: drop-shadow(0 10px 10px rgba(0, 0, 0, 0.4)); }
-
-H1 {
-  font-weight: bold; }
+  filter: drop-shadow(0 10px 10px rgba(0, 0, 0, 0.4));
+  cursor: pointer; }

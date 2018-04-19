@@ -1,0 +1,35 @@
+.recommended-by {
+  background: #F2F5FA;
+  margin-top: 7%;
+  padding-top: 7%; }
+  .recommended-by .pic {
+    background: #FF006D;
+    height: 100%;
+    width: 70%;
+    margin-left: 15%; }
+  .recommended-by .description {
+    width: 40%;
+    padding-top: 7%; }
+  .recommended-by .about-person {
+    padding-top: 10%; }
+    .recommended-by .about-person .name {
+      font-weight: bold;
+      font-size: 1.5vw; }
+    .recommended-by .about-person .status {
+      font-size: 1vw; }
+  .recommended-by .buttons {
+    padding-top: 7%;
+    padding-bottom: 14%; }
+    .recommended-by .buttons .prev,
+    .recommended-by .buttons .next {
+      width: 5vw;
+      height: 5vw;
+      display: inline-block;
+      margin: 1%;
+      background-size: contain;
+      background-position: center;
+      cursor: pointer; }
+    .recommended-by .buttons .prev {
+      background-image: url("../../images/button_prev_big.svg"); }
+    .recommended-by .buttons .next {
+      background-image: url("../../images/button_next_big.svg"); }

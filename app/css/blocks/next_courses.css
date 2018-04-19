@@ -1,25 +1,35 @@
 .next-courses {
-  position: relative;
-  top: -60px;
-  background: white;
-  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
-  padding: 7%; }
-  .next-courses .list {
+  background: #F2F5FA;
+  padding: 9% 9% 0; }
+  .next-courses .courses {
     margin-top: 10%; }
-    .next-courses .list .icon {
-      border-radius: 50%;
-      width: 5vw;
-      height: 5vw;
-      padding-top: 12px;
-      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
-      text-align: center;
+    .next-courses .courses .item {
       background: white;
-      transition: all 0.3s; }
-      .next-courses .list .icon:hover {
-        background: #FF006D;
-        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2); }
-        .next-courses .list .icon:hover img {
-          filter: brightness(10); }
-    .next-courses .list .description {
-      margin-top: 15%;
-      width: 80%; }
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+      padding-bottom: 15px;
+      margin: 0 1% 10% 1%;
+      flex: 0 0 31%; }
+      .next-courses .courses .item .preview {
+        height: 20vw;
+        background: teal;
+        position: relative;
+        top: -30px;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); }
+      .next-courses .courses .item .date,
+      .next-courses .courses .item .title {
+        font-weight: bold;
+        font-size: 1.7vw; }
+      .next-courses .courses .item .date {
+        color: #FF006D; }
+      .next-courses .courses .item .more-button {
+        text-align: right;
+        font-style: italic;
+        font-weight: 500;
+        transition: color 0.2s;
+        cursor: pointer; }
+        .next-courses .courses .item .more-button:hover {
+          color: #FF006D; }
+        .next-courses .courses .item .more-button .arrow {
+          font-size: 30px;
+          font-style: normal;
+          padding-left: 30px; }

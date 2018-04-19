@@ -1,0 +1,34 @@
+.education-plan {
+  padding-top: 5%;
+  padding-bottom: 15%;
+  margin: 0 30px 30px;
+  width: calc(100% - 60px);
+  background: #06112F;
+  position: relative; }
+  .education-plan button {
+    position: absolute;
+    bottom: -2vw;
+    left: 17%; }
+  .education-plan H1 {
+    width: 40%; }
+  .education-plan div {
+    padding: 0;
+    margin: 0; }
+  .education-plan .plan-container {
+    padding: 0 10%;
+    color: white;
+    font-weight: bold;
+    font-family: Ubuntu; }
+    .education-plan .plan-container .padded-top {
+      padding-top: 3%; }
+    .education-plan .plan-container .number {
+      font-size: 5vw; }
+    .education-plan .plan-container .text {
+      padding-top: 5%;
+      font-size: 1.6vw;
+      line-height: 120%;
+      padding-right: 1%; }
+      .education-plan .plan-container .text small {
+        font-size: 1vw;
+        line-height: 100%;
+        display: block; }

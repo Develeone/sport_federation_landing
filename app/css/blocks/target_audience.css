@@ -1,0 +1,46 @@
+@charset "UTF-8";
+.target-audience {
+  padding: 9% 15px 15px 9%; }
+  .target-audience .list {
+    margin-top: 10%; }
+    .target-audience .list .item {
+      padding: 20px 30px;
+      width: 80%;
+      margin-bottom: 0;
+      cursor: pointer;
+      transition: box-shadow 0.3s;
+      position: relative; }
+      .target-audience .list .item::before {
+        content: "⯆";
+        position: absolute;
+        right: 30px;
+        top: 20px;
+        font-size: 20px;
+        filter: drop-shadow(0 5px 5px rgba(0, 0, 0, 0.2));
+        transition: all 0.3s; }
+      .target-audience .list .item.active {
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3); }
+        .target-audience .list .item.active::before {
+          transform: rotate(-60deg);
+          filter: drop-shadow(-5px 0 5px rgba(0, 0, 0, 0.2)); }
+        .target-audience .list .item.active .details {
+          height: 100px  !important; }
+      .target-audience .list .item .title {
+        font-weight: bold;
+        font-size: 1.5vw; }
+      .target-audience .list .item .details {
+        color: #333;
+        height: 0;
+        overflow: hidden;
+        transition: height 0.3s; }
+  .target-audience .image-container {
+    background: #F2F5FA; }
+    .target-audience .image-container .container {
+      height: 100%; }
+    .target-audience .image-container .image-row {
+      height: 100%; }
+      .target-audience .image-container .image-row .image {
+        background: gray url("https://static1.squarespace.com/static/52dbd732e4b0ce276348c412/58eb6a511e5b6c098b91fd56/56a7de7eb2094382065948b0/1453842048003/SAMPLE_DSC_7185-771_v.1.00.jpg?format=750w") center;
+        background-size: cover;
+        height: 120%;
+        margin-top: 5%; }
