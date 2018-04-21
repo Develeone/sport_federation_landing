@@ -1,0 +1,13 @@
+<svg width="32" height="32" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="Canvas" fill="none">
+<g id="facebook">
+<g id="Vector">
+<path d="M 28 0L 4 0C 1.794 0 0 1.794 0 4L 0 28C 0 30.206 1.794 32 4 32L 28 32C 30.206 32 32 30.206 32 28L 32 4C 32 1.794 30.206 0 28 0Z" fill="#1976D2"/>
+</g>
+<g id="Vector_2">
+<path d="M 15 10L 10 10L 10 6C 10 4.896 10.896 5 12 5L 14 5L 14 0L 10 0C 6.686 0 4 2.686 4 6L 4 10L 0 10L 0 15L 4 15L 4 26L 10 26L 10 15L 13 15L 15 10Z" transform="translate(12 6)" fill="#FAFAFA"/>
+</g>
+</g>
+</g>
+</svg>
+

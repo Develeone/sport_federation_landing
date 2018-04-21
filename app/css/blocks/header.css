@@ -1,29 +1,29 @@
 .header {
   background: #F2F5FA url("/images/bg_people.png") no-repeat bottom right 10%;
-  background-size: 45%;
+  background-size: 80vh;
   margin: 30px;
   width: calc(100% - 60px);
-  height: 100vh;
-  position: relative;
-  min-height: 650px; }
+  height: calc(100vh - 60px);
+  position: fixed;
+  top: 0;
+  left: 0; }
   .header .logo {
-    background: url("/images/logo.svg") no-repeat center;
-    background-size: contain;
-    height: 100px; }
-  .header .contacts {
+    padding-top: 15px;
+    padding-left: 6%; }
+  .header .contacts-container {
     text-align: right;
     padding-top: 20px; }
-    .header .contacts .phone {
+    .header .contacts-container .phone {
       display: inline-block;
       font-size: 1.8vw;
       font-weight: bold;
       padding-right: 10px; }
-    .header .contacts .social-icon {
+    .header .contacts-container .social-icon {
       height: 30px;
       margin: 0 5px;
       position: relative;
       top: -4px; }
-  .header .menu .button {
+  .header .menu-button .button {
     width: 70px;
     max-width: 150%;
     cursor: pointer; }
@@ -46,6 +46,7 @@
       .header .promo .title .pink {
         color: #FF006D; }
     .header .promo .buttons-container {
-      margin-top: 20%; }
+      margin-top: 20%;
+      font-size: 1.2vw; }
       .header .promo .buttons-container .arrow {
         margin: 0 15px 0 30px; }

@@ -26,6 +26,8 @@
       padding: 5.3% 0;
       cursor: pointer;
       box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3); }
+      .callback form input[type="button"][disabled] {
+        cursor: not-allowed; }
     .callback form .accept-conditions {
       margin-top: 5%;
       font-size: 1vw;

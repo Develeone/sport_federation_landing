@@ -1,19 +1,74 @@
+@import "../colors"
+
 .trainers
   padding-top: 7%
 
   .list-container
-    max-width: 100%
-    overflow-x: scroll
+    width: 90%
     margin-bottom: 7%
+    margin-top: 3%
+    height: 400px
 
     .list
-      display: inline
-      overflow: hidden
-      white-space: nowrap
+
+      .slick-track
+        transition: all 0.5s
 
       .item
-        display: inline-block
-        height: 300px
-        width: 200px
-        background: #FF006D
+        height: 370px
+        width: 270px !important
+        background: #afafbb
         margin: 15px
+        overflow: hidden
+        position: relative
+        transition: width 0.3s
+
+        &.slick-center
+          width: 670px !important
+
+        .pic
+          width: 270px
+          height: 370px
+          position: absolute
+          top: 0
+          left: 0
+          background-image: url("https://static1.squarespace.com/static/52dbd732e4b0ce276348c412/58eb6a511e5b6c098b91fd56/56a7de7eb2094382065948b0/1453842048003/SAMPLE_DSC_7185-771_v.1.00.jpg?format=750w")
+          background-position: center
+          background-size: cover
+          cursor: pointer
+
+        .details
+          position: absolute
+          left: 270px
+          height: 370px
+          width: 400px
+          background: $darkblue
+          color: white
+          white-space: normal
+          padding-top: 15px
+
+          p
+            width: 350px
+            margin-left: 25px
+
+          .name
+            font-size: 22px
+            font-weight: bold
+            margin-bottom: 5px
+
+          .status,
+          .description
+            font-size: 14px
+
+          .description
+            margin-top: 35px
+
+          .social-links
+            filter: brightness(50)
+            position: absolute
+            bottom: 0
+            left: 0
+
+            a
+              margin-right: 15px
+              display: inline-block

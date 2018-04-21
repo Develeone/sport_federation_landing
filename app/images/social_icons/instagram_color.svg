@@ -1,0 +1,35 @@
+<svg width="32" height="32" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="Canvas" fill="none">
+<g id="instagram">
+<g id="Vector">
+<path d="M 22 0L 10 0C 4.478 0 0 4.478 0 10L 0 22C 0 27.522 4.478 32 10 32L 22 32C 27.522 32 32 27.522 32 22L 32 10C 32 4.478 27.522 0 22 0ZM 29 22C 29 25.86 25.86 29 22 29L 10 29C 6.14 29 3 25.86 3 22L 3 10C 3 6.14 6.14 3 10 3L 22 3C 25.86 3 29 6.14 29 10L 29 22Z" fill="url(#paint0_linear)"/>
+</g>
+<g id="Vector_2">
+<path d="M 8 0C 3.582 0 0 3.582 0 8C 0 12.418 3.582 16 8 16C 12.418 16 16 12.418 16 8C 16 3.582 12.418 0 8 0ZM 8 13C 5.244 13 3 10.756 3 8C 3 5.242 5.244 3 8 3C 10.756 3 13 5.242 13 8C 13 10.756 10.756 13 8 13Z" transform="translate(8 8)" fill="url(#paint1_linear)"/>
+</g>
+<g id="Vector_3">
+<path d="M 1.066 2.132C 1.65474 2.132 2.132 1.65474 2.132 1.066C 2.132 0.477265 1.65474 0 1.066 0C 0.477265 0 0 0.477265 0 1.066C 0 1.65474 0.477265 2.132 1.066 2.132Z" transform="translate(23.5342 6.33398)" fill="url(#paint2_linear)"/>
+</g>
+</g>
+</g>
+<defs>
+
+<linearGradient id="paint0_linear" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(26.1414 -26.1418 -26.1418 -26.1414 16.0002 42.1416)">
+<stop stop-color="#FFC107"/>
+<stop offset="0.507" stop-color="#F44336"/>
+<stop offset="0.99" stop-color="#9C27B0"/>
+</linearGradient>
+<linearGradient id="paint1_linear" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(11.3134 -11.3134 -11.3134 -11.3134 8 19.3134)">
+<stop stop-color="#FFC107"/>
+<stop offset="0.507" stop-color="#F44336"/>
+<stop offset="0.99" stop-color="#9C27B0"/>
+</linearGradient>
+<linearGradient id="paint2_linear" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1.5074 -1.5076 -1.5076 -1.5074 1.0661 2.5736)">
+<stop stop-color="#FFC107"/>
+<stop offset="0.507" stop-color="#F44336"/>
+<stop offset="0.99" stop-color="#9C27B0"/>
+</linearGradient>
+
+</defs>
+</svg>
+

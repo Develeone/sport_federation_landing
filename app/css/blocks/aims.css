@@ -1,7 +1,7 @@
 .aims {
   background: white;
   box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
-  padding: 7% 4% 4%;
+  padding: 7% 4% 10%;
   position: relative;
   margin: 7% 5% 0 5%;
   width: 90%; }
@@ -9,6 +9,7 @@
     margin-top: 7%; }
     .aims .list .item {
       font-weight: bold;
+      font-size: 1.2vw;
       margin: 1.5% 0; }
       .aims .list .item .bullit {
         filter: drop-shadow(0 7px 7px rgba(0, 0, 0, 0.2));

@@ -1,0 +1,58 @@
+.trainers {
+  padding-top: 7%; }
+  .trainers .list-container {
+    width: 90%;
+    margin-bottom: 7%;
+    margin-top: 3%;
+    height: 400px; }
+    .trainers .list-container .list .slick-track {
+      transition: all 0.5s; }
+    .trainers .list-container .list .item {
+      height: 370px;
+      width: 270px !important;
+      background: #afafbb;
+      margin: 15px;
+      overflow: hidden;
+      position: relative;
+      transition: width 0.3s; }
+      .trainers .list-container .list .item.slick-center {
+        width: 670px !important; }
+      .trainers .list-container .list .item .pic {
+        width: 270px;
+        height: 370px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-image: url("https://static1.squarespace.com/static/52dbd732e4b0ce276348c412/58eb6a511e5b6c098b91fd56/56a7de7eb2094382065948b0/1453842048003/SAMPLE_DSC_7185-771_v.1.00.jpg?format=750w");
+        background-position: center;
+        background-size: cover;
+        cursor: pointer; }
+      .trainers .list-container .list .item .details {
+        position: absolute;
+        left: 270px;
+        height: 370px;
+        width: 400px;
+        background: #06112F;
+        color: white;
+        white-space: normal;
+        padding-top: 15px; }
+        .trainers .list-container .list .item .details p {
+          width: 350px;
+          margin-left: 25px; }
+        .trainers .list-container .list .item .details .name {
+          font-size: 22px;
+          font-weight: bold;
+          margin-bottom: 5px; }
+        .trainers .list-container .list .item .details .status,
+        .trainers .list-container .list .item .details .description {
+          font-size: 14px; }
+        .trainers .list-container .list .item .details .description {
+          margin-top: 35px; }
+        .trainers .list-container .list .item .details .social-links {
+          filter: brightness(50);
+          position: absolute;
+          bottom: 0;
+          left: 0; }
+          .trainers .list-container .list .item .details .social-links a {
+            margin-right: 15px;
+            display: inline-block; }

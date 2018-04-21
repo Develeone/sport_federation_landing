@@ -1,0 +1,70 @@
+@import "../colors.sass"
+
+.reviews
+  font-family: Ubuntu
+
+  .comment
+    font-style: italic
+    margin-bottom: 20%
+
+  .name
+    font-weight: bold
+    font-size: 1.6vw
+
+  .status
+    font-size: 1.1vw
+
+    a
+      color: black
+      text-decoration: underline
+
+  .avatar
+    background: gray no-repeat center
+    background-size: cover
+    background-image: url("https://i2.wp.com/www.lubeer.ru/wp-content/uploads/2015/07/sample.png")
+    border-radius: 50%
+    width: 7vw
+    height: 7vw
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2)
+    margin-bottom: 20%
+
+  .slick-list
+    margin: 0 60px
+    padding: 0 !important
+
+  .slick-prev,
+  .slick-next
+    bottom: -11% !important
+    top: auto
+    z-index: 99
+    filter: none
+    background: no-repeat center
+    background-size: contain
+    width: 30px
+    height: 30px
+    border: 1px solid black
+
+    &::before
+      visibility: hidden
+
+  .slick-next
+    right: 30%
+    background-image: url("../../images/button_next_big.svg")
+
+  .slick-prev
+    left: 30%
+    background-image: url("../../images/button_prev_big.svg")
+
+  .slick-dots
+    list-style-type: none
+
+    li
+      height: 2px
+      width: 10px
+      background: gray
+
+      &.slick-active
+        background: $pink
+
+      button
+        visibility: hidden

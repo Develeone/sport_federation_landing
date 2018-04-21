@@ -15,7 +15,7 @@ input, button {
   color: white; }
 
 button {
-  background: url("../images/button.svg");
+  background: url("../images/button.svg") no-repeat;
   width: 19vw;
   height: 4.5vw;
   background-size: contain;
@@ -27,3 +27,8 @@ button {
   font-size: 1.2vw;
   filter: drop-shadow(0 10px 10px rgba(0, 0, 0, 0.4));
   cursor: pointer; }
+
+.slick-arrow {
+  font-style: normal; }
+  .slick-arrow:before {
+    color: black; }
