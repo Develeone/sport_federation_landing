@@ -1,0 +1,35 @@
+.about {
+  background: #F2F5FA;
+  margin: 30px;
+  width: calc(100% - 60px);
+  height: 100vh;
+  position: relative;
+  min-height: 650px;
+  padding-top: 5%;
+  padding-bottom: 65%; }
+  .about .title {
+    font-size: 4vw;
+    font-weight: bold;
+    width: 60%;
+    line-height: 100%; }
+    .about .title .pink {
+      color: #FF006D; }
+  .about .numbers {
+    margin-top: 10%; }
+    .about .numbers div:hover hr {
+      border-top: 2px solid #FF006D; }
+    .about .numbers .number {
+      font-size: 4vw;
+      font-weight: bold; }
+    .about .numbers hr {
+      height: 2px;
+      border-top: 2px solid #06112F; }
+  .about .aerobics {
+    margin-top: 8%; }
+    .about .aerobics .left {
+      text-align: right;
+      border-right: 2px solid #ACB3BF; }
+      .about .aerobics .left img {
+        width: 100%; }
+    .about .aerobics .right {
+      text-align: left; }

@@ -1,0 +1,37 @@
+.videos {
+  font-family: Ubuntu;
+  position: relative;
+  top: -200px; }
+  .videos H1 {
+    padding-bottom: 5%; }
+  .videos .col-md-4 {
+    height: 100%; }
+    .videos .col-md-4 iframe {
+      transition: box-shadow 0.3s;
+      width: 100%;
+      height: 40vh; }
+      .videos .col-md-4 iframe:hover {
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); }
+    .videos .col-md-4 .person {
+      padding-top: 10%;
+      position: relative; }
+      .videos .col-md-4 .person .avatar,
+      .videos .col-md-4 .person .info {
+        display: inline-block;
+        height: 5vw; }
+      .videos .col-md-4 .person .avatar {
+        background: gray no-repeat center;
+        background-size: cover;
+        background-image: url("https://i2.wp.com/www.lubeer.ru/wp-content/uploads/2015/07/sample.png");
+        border-radius: 50%;
+        width: 5vw; }
+      .videos .col-md-4 .person .info {
+        position: absolute;
+        left: 6vw; }
+        .videos .col-md-4 .person .info .name {
+          font-weight: bold;
+          font-style: italic;
+          font-size: 1.6vw;
+          margin-bottom: 5%; }
+        .videos .col-md-4 .person .info .status {
+          font-size: 1.1vw; }

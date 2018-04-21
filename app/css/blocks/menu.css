@@ -1,0 +1,47 @@
+.menu {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 0;
+  z-index: 9999;
+  background: white;
+  overflow: hidden;
+  padding: 0;
+  transition: all 0.3s; }
+  .menu.active {
+    height: 100vh;
+    padding: 30px; }
+  .menu a {
+    color: black;
+    text-decoration: none;
+    white-space: nowrap; }
+    .menu a:hover {
+      text-decoration: underline; }
+  .menu .menu-close-button {
+    width: 64px;
+    height: 64px;
+    position: absolute;
+    right: 10%;
+    top: 30px;
+    background: url("../../images/menu_close_button.svg") no-repeat center;
+    background-size: cover;
+    cursor: pointer; }
+  .menu .links {
+    width: 40%;
+    height: 100%;
+    background: #F2F5FA;
+    padding-top: 10%; }
+    .menu .links a {
+      display: block;
+      margin-left: 60%;
+      font-size: 2vw;
+      margin-bottom: 1%; }
+  .menu .documents {
+    position: absolute;
+    bottom: 30px;
+    right: 10%;
+    width: 30%; }
+    .menu .documents a {
+      font-size: 1vw;
+      margin-left: 3%; }

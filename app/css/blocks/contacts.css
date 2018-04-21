@@ -1,0 +1,25 @@
+.contacts {
+  margin-top: 8%;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+  font-family: Ubuntu; }
+  .contacts #map {
+    background: #06112F;
+    height: 70vh;
+    padding: 0; }
+  .contacts .text {
+    padding-left: 10%;
+    padding-top: 10%; }
+    .contacts .text .phone {
+      font-size: 1.6vw;
+      font-weight: bold;
+      margin-top: 10%; }
+    .contacts .text .address,
+    .contacts .text .schedule {
+      font-size: 1.1vw;
+      margin-bottom: 0; }
+    .contacts .text .address {
+      padding-top: 8%; }
+    .contacts .text .social-icons {
+      margin-top: 10%; }
+      .contacts .text .social-icons img {
+        margin: 10px; }
