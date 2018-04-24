@@ -7,15 +7,28 @@
   position: fixed;
   top: 0;
   left: 0; }
+  @media (max-width: 900px) {
+    .header {
+      background-size: 60vw;
+      margin: 0;
+      width: 100%;
+      height: 100vh; } }
   .header .logo {
     padding-top: 15px;
     padding-left: 6%; }
+    @media (max-width: 900px) {
+      .header .logo img {
+        max-width: 200%; } }
   .header .contacts-container {
     text-align: right;
-    padding-top: 20px; }
+    padding-top: 20px;
+    font-size: 1.8vw; }
+    @media (max-width: 900px) {
+      .header .contacts-container {
+        text-align: center;
+        font-size: 18px; } }
     .header .contacts-container .phone {
       display: inline-block;
-      font-size: 1.8vw;
       font-weight: bold;
       padding-right: 10px; }
     .header .contacts-container .social-icon {
@@ -27,6 +40,11 @@
     width: 70px;
     max-width: 150%;
     cursor: pointer; }
+    @media (max-width: 900px) {
+      .header .menu-button .button {
+        position: fixed;
+        top: 0;
+        right: 0; } }
   .header .promo {
     position: absolute;
     top: 30%;
@@ -39,14 +57,28 @@
       font-size: 1.7vw;
       font-weight: 500;
       font-family: Ubuntu; }
+      @media (max-width: 900px) {
+        .header .promo .subject,
+        .header .promo .description {
+          font-size: 18px; } }
     .header .promo .title {
       text-transform: uppercase;
       font-size: 3.4vw;
       font-weight: bold; }
+      @media (max-width: 900px) {
+        .header .promo .title {
+          font-size: 24px; } }
       .header .promo .title .pink {
         color: #FF006D; }
     .header .promo .buttons-container {
       margin-top: 20%;
       font-size: 1.2vw; }
+      @media (max-width: 900px) {
+        .header .promo .buttons-container span {
+          font-size: 16px;
+          display: block;
+          margin-top: 20px; }
+          .header .promo .buttons-container span .arrow {
+            margin: 0 15px 0 0; } }
       .header .promo .buttons-container .arrow {
         margin: 0 15px 0 30px; }

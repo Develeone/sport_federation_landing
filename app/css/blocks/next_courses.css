@@ -1,35 +1,45 @@
 .next-courses {
   background: #F2F5FA;
-  padding: 9% 9% 0; }
+  padding: 9% 9% 0;
+  margin-top: 5%; }
   .next-courses .courses {
     margin-top: 10%; }
     .next-courses .courses .item {
-      background: white;
-      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-      padding-bottom: 15px;
-      margin: 0 1% 10% 1%;
-      flex: 0 0 31%; }
-      .next-courses .courses .item .preview {
-        height: 20vw;
-        background: teal;
-        position: relative;
-        top: -30px;
-        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); }
-      .next-courses .courses .item .date,
-      .next-courses .courses .item .title {
-        font-weight: bold;
-        font-size: 1.7vw; }
-      .next-courses .courses .item .date {
-        color: #FF006D; }
-      .next-courses .courses .item .more-button {
-        text-align: right;
-        font-style: italic;
-        font-weight: 500;
-        transition: color 0.2s;
-        cursor: pointer; }
-        .next-courses .courses .item .more-button:hover {
+      padding-right: 1.5%;
+      padding-left: 1.5%;
+      margin-bottom: 12%; }
+      .next-courses .courses .item .inner-container {
+        background: white;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        padding: 4%; }
+        .next-courses .courses .item .inner-container .preview {
+          height: 20vw;
+          background: darkgrey;
+          position: relative;
+          top: -30px;
+          box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); }
+          @media (max-width: 768px) {
+            .next-courses .courses .item .inner-container .preview {
+              height: 40vh; } }
+        .next-courses .courses .item .inner-container .date,
+        .next-courses .courses .item .inner-container .title {
+          font-weight: bold;
+          font-size: 1.7vw; }
+          @media (max-width: 900px) {
+            .next-courses .courses .item .inner-container .date,
+            .next-courses .courses .item .inner-container .title {
+              font-size: 18px; } }
+        .next-courses .courses .item .inner-container .date {
           color: #FF006D; }
-        .next-courses .courses .item .more-button .arrow {
-          font-size: 30px;
-          font-style: normal;
-          padding-left: 30px; }
+        .next-courses .courses .item .inner-container .more-button {
+          text-align: right;
+          font-style: italic;
+          font-weight: 500;
+          transition: color 0.2s;
+          cursor: pointer; }
+          .next-courses .courses .item .inner-container .more-button:hover {
+            color: #FF006D; }
+          .next-courses .courses .item .inner-container .more-button .arrow {
+            font-size: 30px;
+            font-style: normal;
+            padding-left: 30px; }

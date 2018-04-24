@@ -39,6 +39,17 @@ $(document).ready(function () {
     });
 
 
+    $(".open-conference-modal").click(function () {
+        $(".modal-conference").addClass("active");
+    });
+    $(".modal-conference .close-button").click(function () {
+        $(".modal-conference").removeClass("active");
+    });
+
+    $(".sale").click(function () {
+        $(".modal-callback").addClass("active");
+    });
+
     $('.trainers .list-container .list').slick({
         dots: true,
         infinite: false,

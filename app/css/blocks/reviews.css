@@ -6,8 +6,14 @@
   .reviews .name {
     font-weight: bold;
     font-size: 1.6vw; }
+    @media (max-width: 900px) {
+      .reviews .name {
+        font-size: 22px; } }
   .reviews .status {
     font-size: 1.1vw; }
+    @media (max-width: 900px) {
+      .reviews .status {
+        font-size: 16px; } }
     .reviews .status a {
       color: black;
       text-decoration: underline; }
@@ -20,36 +26,3 @@
     height: 7vw;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
     margin-bottom: 20%; }
-  .reviews .slick-list {
-    margin: 0 60px;
-    padding: 0 !important; }
-  .reviews .slick-prev,
-  .reviews .slick-next {
-    bottom: -11% !important;
-    top: auto;
-    z-index: 99;
-    filter: none;
-    background: no-repeat center;
-    background-size: contain;
-    width: 30px;
-    height: 30px;
-    border: 1px solid black; }
-    .reviews .slick-prev::before,
-    .reviews .slick-next::before {
-      visibility: hidden; }
-  .reviews .slick-next {
-    right: 30%;
-    background-image: url("../../images/button_next_big.svg"); }
-  .reviews .slick-prev {
-    left: 30%;
-    background-image: url("../../images/button_prev_big.svg"); }
-  .reviews .slick-dots {
-    list-style-type: none; }
-    .reviews .slick-dots li {
-      height: 2px;
-      width: 10px;
-      background: gray; }
-      .reviews .slick-dots li.slick-active {
-        background: #FF006D; }
-      .reviews .slick-dots li button {
-        visibility: hidden; }

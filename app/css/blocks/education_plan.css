@@ -11,6 +11,9 @@
     left: 17%; }
   .education-plan H1 {
     width: 40%; }
+    @media (max-width: 900px) {
+      .education-plan H1 {
+        width: 100%; } }
   .education-plan div {
     padding: 0;
     margin: 0; }
@@ -23,14 +26,25 @@
       padding-top: 3%; }
     .education-plan .plan-container .number {
       font-size: 5vw; }
+      @media (max-width: 900px) {
+        .education-plan .plan-container .number {
+          font-size: 32px; } }
     .education-plan .plan-container .text {
       padding-top: 5%;
       font-size: 1.6vw;
       line-height: 120%;
       padding-right: 1%; }
+      @media (max-width: 900px) {
+        .education-plan .plan-container .text {
+          font-size: 18px;
+          padding-top: 0;
+          padding-bottom: 5%; } }
       .education-plan .plan-container .text p {
         width: 90%; }
       .education-plan .plan-container .text small {
         font-size: 1vw;
         line-height: 100%;
         display: block; }
+        @media (max-width: 900px) {
+          .education-plan .plan-container .text small {
+            font-size: 14px; } }

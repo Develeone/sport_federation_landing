@@ -16,10 +16,17 @@
       font-size: 1.6vw;
       font-weight: bold;
       margin-top: 10%; }
+      @media (max-width: 900px) {
+        .contacts .text .phone {
+          font-size: 22px; } }
     .contacts .text .address,
     .contacts .text .schedule {
       font-size: 1.1vw;
       margin-bottom: 0; }
+      @media (max-width: 900px) {
+        .contacts .text .address,
+        .contacts .text .schedule {
+          font-size: 16px; } }
     .contacts .text .address {
       padding-top: 8%; }
     .contacts .text .social-icons {

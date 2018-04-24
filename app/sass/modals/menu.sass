@@ -1,4 +1,4 @@
-@import "../colors.sass"
+@import "../colors"
 
 .menu
   position: fixed
@@ -46,12 +46,23 @@
       font-size: 2vw
       margin-bottom: 1%
 
+      @media (max-width: 900px)
+        font-size: 20px
+
+
   .documents
     position: absolute
     bottom: 30px
     right: 10%
     width: 30%
 
+    @media (max-width: 900px)
+      right: auto
+      left: 10%
+
     a
       font-size: 1vw
       margin-left: 3%
+
+      @media (max-width: 900px)
+        font-size: 12px

@@ -1,11 +1,14 @@
 .videos {
   font-family: Ubuntu;
   position: relative;
-  top: -200px; }
+  top: -20vh; }
   .videos H1 {
     padding-bottom: 5%; }
   .videos .col-md-4 {
     height: 100%; }
+    @media (max-width: 900px) {
+      .videos .col-md-4 {
+        margin-bottom: 7vh; } }
     .videos .col-md-4 iframe {
       transition: box-shadow 0.3s;
       width: 100%;
@@ -33,5 +36,11 @@
           font-style: italic;
           font-size: 1.6vw;
           margin-bottom: 5%; }
+          @media (max-width: 900px) {
+            .videos .col-md-4 .person .info .name {
+              font-size: 22px; } }
         .videos .col-md-4 .person .info .status {
           font-size: 1.1vw; }
+          @media (max-width: 900px) {
+            .videos .col-md-4 .person .info .status {
+              font-size: 16px; } }

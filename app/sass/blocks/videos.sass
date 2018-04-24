@@ -1,13 +1,16 @@
 .videos
   font-family: Ubuntu
   position: relative
-  top: -200px
+  top: -20vh
 
   H1
     padding-bottom: 5%
 
   .col-md-4
     height: 100%
+
+    @media (max-width: 900px)
+      margin-bottom: 7vh
 
     iframe
       transition: box-shadow 0.3s
@@ -43,5 +46,11 @@
           font-size: 1.6vw
           margin-bottom: 5%
 
+          @media (max-width: 900px)
+            font-size: 22px
+
         .status
           font-size: 1.1vw
+
+          @media (max-width: 900px)
+            font-size: 16px

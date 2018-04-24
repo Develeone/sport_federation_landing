@@ -2,12 +2,15 @@
   padding-top: 5%; }
   .place H1 {
     width: 40%; }
+    @media (max-width: 900px) {
+      .place H1 {
+        width: 100%; } }
   .place .gallery-container {
     padding: 0;
     margin: 30px;
     flex: 0 0 calc(100% - 60px); }
     .place .gallery-container .left, .place .gallery-container .right {
-      height: 400px; }
+      height: 60vh; }
     .place .gallery-container .left {
       background: #F2F5FA; }
     .place .gallery-container .right {

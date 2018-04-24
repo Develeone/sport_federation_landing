@@ -6,13 +6,16 @@
   H1
     width: 40%
 
+    @media (max-width: 900px)
+      width: 100%
+
   .gallery-container
     padding: 0
     margin: 30px
     flex: 0 0 calc(100% - 60px)
 
     .left, .right
-      height: 400px
+      height: 60vh
 
     .left
       background: $gray

@@ -1,11 +1,17 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700|Ubuntu&subset=cyrillic')
+@import "colors"
 
 body
   font-family: 'Roboto', sans-serif
+  overflow-x: hidden
 
 H1
   font-weight: bold
   font-size: 2vw
+
+  @media (max-width: 900px)
+    font-size: 24px !important
+
 
 H1, H2, H3, H4, H5, H6
   font-family: Ubuntu
@@ -19,6 +25,10 @@ button
   background: url('../images/button.svg') no-repeat
   width: 19vw
   height: 4.5vw
+
+  min-width: 190px
+  min-height: 45px
+
   background-size: contain
   font-style: italic
   text-transform: uppercase
@@ -29,8 +39,76 @@ button
   filter: drop-shadow(0 10px 10px rgba(0, 0, 0, 0.4))
   cursor: pointer
 
+  @media (max-width: 900px)
+    font-size: 12px
+
+
 .slick-arrow
   font-style: normal
 
   &:before
     color: black
+
+.slick-list
+  margin: 0 60px
+  padding: 0 !important
+
+.slick-prev,
+.slick-next
+  bottom: -11% !important
+  top: auto
+  z-index: 99
+  filter: none
+  background: no-repeat center
+  background-size: contain
+  width: 2vw
+  min-width: auto
+  min-height: auto
+  height: 2vw
+  //border: 1px solid black
+
+  @media (max-width: 900px)
+    width: 4vw
+    height: 4vw
+
+  &:focus
+    background: none
+
+  &::before
+    visibility: hidden
+
+.slick-next
+  right: 30%
+  background-image: url("../images/button_next_big.svg")
+
+  &:focus,
+  &:hover
+    background: url("../images/button_next_big.svg") no-repeat center
+    background-size: contain
+
+.slick-prev
+  left: 30%
+  background-image: url("../images/button_prev_big.svg")
+
+  &:focus,
+  &:hover
+    background: url("../images/button_prev_big.svg") no-repeat center
+    background-size: contain
+
+.slick-dots
+  list-style-type: none
+  bottom: -3vw
+
+  @media (max-width: 900px)
+    bottom: -10vh
+
+  li
+    height: 2px
+    width: 10px
+    background: gray
+
+    &.slick-active
+      background: $pink
+
+    button
+      visibility: hidden

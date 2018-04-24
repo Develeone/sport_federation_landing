@@ -28,20 +28,27 @@
           filter: drop-shadow(-5px 0 5px rgba(0, 0, 0, 0.2)); }
         .target-audience .list .item.active .details {
           height: 100px  !important; }
+          @media (max-width: 900px) {
+            .target-audience .list .item.active .details {
+              height: auto !important; } }
       .target-audience .list .item .title {
         font-weight: bold;
         font-size: 1.5vw; }
+        @media (max-width: 900px) {
+          .target-audience .list .item .title {
+            font-size: 18px; } }
       .target-audience .list .item .details {
         color: #333;
         height: 0;
         overflow: hidden;
         transition: height 0.3s; }
   .target-audience .image-container {
-    background: #F2F5FA; }
+    background: #F2F5FA;
+    padding: 0; }
     .target-audience .image-container .container {
-      height: 100%; }
+      height: 90vh; }
     .target-audience .image-container .image-row {
-      height: 100%; }
+      height: 90vh; }
       .target-audience .image-container .image-row .image {
         background: gray url("https://static1.squarespace.com/static/52dbd732e4b0ce276348c412/58eb6a511e5b6c098b91fd56/56a7de7eb2094382065948b0/1453842048003/SAMPLE_DSC_7185-771_v.1.00.jpg?format=750w") center;
         background-size: cover;

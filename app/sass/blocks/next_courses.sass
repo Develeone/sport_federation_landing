@@ -3,43 +3,54 @@
 .next-courses
   background: $gray
   padding: 9% 9% 0
+  margin-top: 5%
 
   .courses
     margin-top: 10%
 
     .item
-      background: white
-      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2)
-      padding-bottom: 15px
-      margin: 0 1% 10% 1%
-      flex: 0 0 31%
+      padding-right: 1.5%
+      padding-left: 1.5%
+      margin-bottom: 12%
 
-      .preview
-        height: 20vw
-        background: teal
-        position: relative
-        top: -30px
+      .inner-container
+        background: white
         box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2)
+        padding: 4%
 
-      .date,
-      .title
-        font-weight: bold
-        font-size: 1.7vw
 
-      .date
-        color: $pink
+        .preview
+          height: 20vw
+          background: darkgrey
+          position: relative
+          top: -30px
+          box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2)
 
-      .more-button
-        text-align: right
-        font-style: italic
-        font-weight: 500
-        transition: color 0.2s
-        cursor: pointer
+          @media (max-width: 768px)
+            height: 40vh
 
-        &:hover
+        .date,
+        .title
+          font-weight: bold
+          font-size: 1.7vw
+
+          @media (max-width: 900px)
+            font-size: 18px
+
+        .date
           color: $pink
 
-        .arrow
-          font-size: 30px
-          font-style: normal
-          padding-left: 30px
+        .more-button
+          text-align: right
+          font-style: italic
+          font-weight: 500
+          transition: color 0.2s
+          cursor: pointer
+
+          &:hover
+            color: $pink
+
+          .arrow
+            font-size: 30px
+            font-style: normal
+            padding-left: 30px

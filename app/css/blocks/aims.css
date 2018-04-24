@@ -11,6 +11,9 @@
       font-weight: bold;
       font-size: 1.2vw;
       margin: 1.5% 0; }
+      @media (max-width: 900px) {
+        .aims .list .item {
+          font-size: 18px; } }
       .aims .list .item .bullit {
         filter: drop-shadow(0 7px 7px rgba(0, 0, 0, 0.2));
         padding: 0 30px; }

@@ -20,7 +20,11 @@
 
     <!--build:css css/styles.min.css-->
     <link rel="stylesheet" href="css/elements.css">
-    <link rel="stylesheet" href="css/blocks/menu.css">
+
+    <link rel="stylesheet" href="css/modals/menu.css">
+    <link rel="stylesheet" href="css/modals/conference.css">
+    <link rel="stylesheet" href="css/modals/callback.css">
+
     <link rel="stylesheet" href="css/blocks/header.css">
     <link rel="stylesheet" href="css/blocks/awards.css">
     <link rel="stylesheet" href="css/blocks/next_courses.css">
@@ -42,6 +46,111 @@
 </head>
 <body>
 
+<div class="modal-conference">
+    <div class="inner-container">
+        <div class="close-button"></div>
+        <div class="image"></div>
+        <div class="info">
+            <p class="title">Короткий заголовок</p>
+            <p class="subtitle">Короткое описание мероприятия Зарабатывать более 100 000 рублей в месяц (иллюстрация «обычный подход к дизайну — красивая картинка, за это не платят. Верный подход к дизайну — решение задачи клиента, хорошая оплата.</p>
+        </div>
+        <div class="schedule-container">
+            <p class="title">Программа конференции</p>
+
+            <div class="schedule">
+                <div class="item">
+                    <div class="time">
+                        <br />
+                        <p class="title">10:00-13:00</p>
+                    </div>
+                    <div class="details">
+                        Лекция:
+                        <p class="title">Введение</p>
+
+                        <div class="avatar"></div>
+
+                        <div class="trainer-name">Елена Милена</div>
+                        <div class="trainer-status">
+                            Персональный тренер категории «Мастер Тренер».
+                        </div>
+                        <br />
+                        <div class="item-subject">
+                            Особенности и главные принципы программы Пилатес
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="time">
+                        <br />
+                        <p class="title">10:00-13:00</p>
+                    </div>
+                    <div class="details">
+                        Лекция:
+                        <p class="title">Введение</p>
+
+                        <div class="avatar"></div>
+
+                        <div class="trainer-name">Елена Милена</div>
+                        <div class="trainer-status">
+                            Персональный тренер категории «Мастер Тренер».
+                        </div>
+                        <br />
+                        <div class="item-subject">
+                            Особенности и главные принципы программы Пилатес
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="time">
+                        <br />
+                        <p class="title">10:00-13:00</p>
+                    </div>
+                    <div class="details">
+                        Лекция:
+                        <p class="title">Введение</p>
+
+                        <div class="avatar"></div>
+
+                        <div class="trainer-name">Елена Милена</div>
+                        <div class="trainer-status">
+                            Персональный тренер категории «Мастер Тренер».
+                        </div>
+                        <br />
+                        <div class="item-subject">
+                            Особенности и главные принципы программы Пилатес
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="order-form">
+            <p class="title">Стоимость курса</p>
+
+            <div class="buttons">
+                <div class="full">
+                    <div class="price">32 000 р</div>
+                    <div class="text">Полная стоимость<br />курса</div>
+                </div>
+                <div class="sale">
+                    <div class="price">24 000 р</div>
+                    <div class="text">Записавшимся<br />до 1 марта 2018</div>
+                    <div class="order-action">Записаться →</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal-callback">
+    <h1>Записаться на курс</h1>
+    <p>Наш специалист перезвонит вам, чтобы рассказать <br /> о деталях курса и ответить на возникшие вопросы</p>
+
+    <input type="text" placeholder="Имя">
+    <input type="text" placeholder="Телефон">
+    <input type="text" placeholder="Email">
+    <input type="submit" value="ПОЛУЧИТЬ КОНСУЛЬТАЦИЮ">
+
+</div>
 
 <div class="menu">
 
@@ -80,7 +189,7 @@
             <p class="title"><span class="pink">/ Фитнес тренер</span> с нуля</p>
             <p class="description">Курсы для желающих освоить профессию<br />фитнес-инструктора</p>
             <p class="buttons-container">
-                <button>Записаться на курс</button>
+                <button class="open-conference-modal">Записаться на курс</button>
                 <span><img src="/images/arrow_right.svg" class="arrow"> или получить <b>консультацию</b></span>
             </p>
         </div>
@@ -127,43 +236,53 @@
 
             <div class="container-fluid courses">
                 <div class="row">
-                    <div class="col-md-4 item">
-                        <div class="preview"></div>
-                        <p class="date">4 июня</p>
-                        <p class="title">Инструктор тренажерного зала</p>
-                        <div class="more-button">Подробнее <span class="arrow">→</span></div>
+                    <div class="col-sm-12 col-md-4 item">
+                        <div class="inner-container">
+                            <div class="preview"></div>
+                            <p class="date">4 июня</p>
+                            <p class="title">Инструктор тренажерного зала</p>
+                            <div class="more-button">Подробнее <span class="arrow">→</span></div>
+                        </div>
                     </div>
-                    <div class="col-md-4 item">
-                        <div class="preview"></div>
-                        <p class="date">4 июня</p>
-                        <p class="title">Инструктор тренажерного зала</p>
-                        <div class="more-button">Подробнее <span class="arrow">→</span></div>
+                    <div class="col-sm-12 col-md-4 item">
+                        <div class="inner-container">
+                            <div class="preview"></div>
+                            <p class="date">4 июня</p>
+                            <p class="title">Инструктор тренажерного зала</p>
+                            <div class="more-button">Подробнее <span class="arrow">→</span></div>
+                        </div>
                     </div>
-                    <div class="col-md-4 item">
-                        <div class="preview"></div>
-                        <p class="date">4 июня</p>
-                        <p class="title">Инструктор тренажерного зала</p>
-                        <div class="more-button">Подробнее <span class="arrow">→</span></div>
+                    <div class="col-sm-12 col-md-4 item">
+                        <div class="inner-container">
+                            <div class="preview"></div>
+                            <p class="date">4 июня</p>
+                            <p class="title">Инструктор тренажерного зала</p>
+                            <div class="more-button">Подробнее <span class="arrow">→</span></div>
+                        </div>
                     </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-4 item">
-                        <div class="preview"></div>
-                        <p class="date">4 июня</p>
-                        <p class="title">Инструктор тренажерного зала</p>
-                        <div class="more-button">Подробнее <span class="arrow">→</span></div>
+                    <div class="col-sm-12 col-md-4 item">
+                        <div class="inner-container">
+                            <div class="preview"></div>
+                            <p class="date">4 июня</p>
+                            <p class="title">Инструктор тренажерного зала</p>
+                            <div class="more-button">Подробнее <span class="arrow">→</span></div>
+                        </div>
                     </div>
-                    <div class="col-md-4 item">
-                        <div class="preview"></div>
-                        <p class="date">4 июня</p>
-                        <p class="title">Инструктор тренажерного зала</p>
-                        <div class="more-button">Подробнее <span class="arrow">→</span></div>
+                    <div class="col-sm-12 col-md-4 item">
+                        <div class="inner-container">
+                            <div class="preview"></div>
+                            <p class="date">4 июня</p>
+                            <p class="title">Инструктор тренажерного зала</p>
+                            <div class="more-button">Подробнее <span class="arrow">→</span></div>
+                        </div>
                     </div>
-                    <div class="col-md-4 item">
-                        <div class="preview"></div>
-                        <p class="date">4 июня</p>
-                        <p class="title">Инструктор тренажерного зала</p>
-                        <div class="more-button">Подробнее <span class="arrow">→</span></div>
+                    <div class="col-sm-12 col-md-4 item">
+                        <div class="inner-container">
+                            <div class="preview"></div>
+                            <p class="date">4 июня</p>
+                            <p class="title">Инструктор тренажерного зала</p>
+                            <div class="more-button">Подробнее <span class="arrow">→</span></div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -335,7 +454,7 @@
 
             <div class="container-fluid padded-top">
                 <div class="row">
-                    <div class="col-sm-4">
+                    <div class="col-md-4">
                         <div class="container-fluid">
                             <div class="row">
                                 <div class="col-sm-3 number">
@@ -348,7 +467,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-4">
+                    <div class="col-md-4">
                         <div class="container-fluid">
                             <div class="row">
                                 <div class="col-sm-3 number">
@@ -360,7 +479,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-4">
+                    <div class="col-md-4">
                         <div class="container-fluid">
                             <div class="row">
                                 <div class="col-sm-3 number">
@@ -377,17 +496,17 @@
         </div>
     </div>
 
-    <button>
+    <button class="open-conference-modal">
         Записаться на курс
     </button>
 </div>
 
 <div class="container-fluid recommended-by">
     <div class="row">
-        <div class="col-sm-6">
+        <div class="col-md-6">
             <div class="pic"></div>
         </div>
-        <div class="col-sm-6">
+        <div class="col-md-6">
             <H1>Нас рекомендуют</H1>
             <p class="description">
                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.

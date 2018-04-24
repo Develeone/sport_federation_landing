@@ -37,11 +37,21 @@
       margin-left: 60%;
       font-size: 2vw;
       margin-bottom: 1%; }
+      @media (max-width: 900px) {
+        .menu .links a {
+          font-size: 20px; } }
   .menu .documents {
     position: absolute;
     bottom: 30px;
     right: 10%;
     width: 30%; }
+    @media (max-width: 900px) {
+      .menu .documents {
+        right: auto;
+        left: 10%; } }
     .menu .documents a {
       font-size: 1vw;
       margin-left: 3%; }
+      @media (max-width: 900px) {
+        .menu .documents a {
+          font-size: 12px; } }

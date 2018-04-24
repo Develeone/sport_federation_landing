@@ -5,15 +5,27 @@
   margin-top: 7%
   padding-top: 7%
 
+  @media (max-width: 900px)
+    H1
+      padding-top: 5%
+
   .pic
-    background: $darkblue
+    background: darkgrey
     height: 100%
     width: 70%
     margin-left: 15%
 
+    @media (max-width: 900px)
+      width: 100%
+      height: 80vh
+      margin-left: 0
+
   .description
     width: 40%
     padding-top: 7%
+
+    @media (max-width: 900px)
+      width: 100%
 
   .about-person
     padding-top: 10%
@@ -22,8 +34,14 @@
       font-weight: bold
       font-size: 1.5vw
 
+      @media (max-width: 900px)
+        font-size: 24px
+
     .status
       font-size: 1vw
+
+      @media (max-width: 900px)
+        font-size: 18px
 
   .buttons
     padding-top: 7%
