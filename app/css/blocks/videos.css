@@ -12,7 +12,7 @@
     .videos .col-md-4 iframe {
       transition: box-shadow 0.3s;
       width: 100%;
-      height: 40vh; }
+      height: 30vh; }
       .videos .col-md-4 iframe:hover {
         box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); }
     .videos .col-md-4 .person {

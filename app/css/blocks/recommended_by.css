@@ -6,41 +6,53 @@
     .recommended-by H1 {
       padding-top: 5%; } }
   .recommended-by .pic {
-    background: darkgrey;
+    background-size: cover;
+    background-position: center;
     height: 100%;
     width: 70%;
-    margin-left: 15%; }
+    margin-left: 15%;
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0; }
     @media (max-width: 900px) {
       .recommended-by .pic {
         width: 100%;
         height: 80vh;
         margin-left: 0; } }
-  .recommended-by .description {
-    width: 40%;
-    padding-top: 7%; }
-    @media (max-width: 900px) {
-      .recommended-by .description {
-        width: 100%; } }
-  .recommended-by .about-person {
-    padding-top: 10%; }
-    .recommended-by .about-person .name {
-      font-weight: bold;
-      font-size: 1.5vw; }
+    .recommended-by .pic.active {
+      display: block; }
+  .recommended-by .slide {
+    display: none;
+    position: relative; }
+    .recommended-by .slide.active {
+      display: block; }
+    .recommended-by .slide .description {
+      width: 40%;
+      padding-top: 7%; }
       @media (max-width: 900px) {
-        .recommended-by .about-person .name {
-          font-size: 24px; } }
-    .recommended-by .about-person .status {
-      font-size: 1vw; }
-      @media (max-width: 900px) {
-        .recommended-by .about-person .status {
-          font-size: 18px; } }
+        .recommended-by .slide .description {
+          width: 100%; } }
+    .recommended-by .slide .about-person {
+      padding-top: 10%; }
+      .recommended-by .slide .about-person .name {
+        font-weight: bold;
+        font-size: 1.5vw; }
+        @media (max-width: 900px) {
+          .recommended-by .slide .about-person .name {
+            font-size: 24px; } }
+      .recommended-by .slide .about-person .status {
+        font-size: 1vw; }
+        @media (max-width: 900px) {
+          .recommended-by .slide .about-person .status {
+            font-size: 18px; } }
   .recommended-by .buttons {
     padding-top: 7%;
     padding-bottom: 14%; }
     .recommended-by .buttons .prev,
     .recommended-by .buttons .next {
-      width: 5vw;
-      height: 5vw;
+      width: 2.5vw;
+      height: 2.5vw;
       display: inline-block;
       margin: 1%;
       background-size: contain;

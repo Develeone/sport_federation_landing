@@ -6,6 +6,9 @@
   .target-audience .list {
     margin-top: 10%;
     margin-left: 15%; }
+    @media (max-width: 768px) {
+      .target-audience .list {
+        margin-left: 0; } }
     .target-audience .list .item {
       padding: 20px 30px;
       width: 70%;
@@ -13,6 +16,9 @@
       cursor: pointer;
       transition: box-shadow 0.3s;
       position: relative; }
+      @media (max-width: 768px) {
+        .target-audience .list .item {
+          width: 100%; } }
       .target-audience .list .item::before {
         content: "⯆";
         position: absolute;
