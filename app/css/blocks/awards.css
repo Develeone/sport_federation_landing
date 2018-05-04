@@ -3,8 +3,7 @@
   background: white;
   box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
   padding: 7%;
-  margin-left: 5%;
-  width: 90%;
+  width: calc(100% - 140px);
   margin-top: 100vh; }
   .awards .list {
     margin-top: 10%; }
