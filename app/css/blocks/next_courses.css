@@ -5,8 +5,8 @@
   .next-courses .courses {
     margin-top: 10%; }
     .next-courses .courses .item {
-      padding-right: 1.5%;
-      padding-left: 1.5%;
+      padding-right: 3%;
+      padding-left: 0;
       margin-bottom: 12%; }
       .next-courses .courses .item .inner-container {
         background: white;
