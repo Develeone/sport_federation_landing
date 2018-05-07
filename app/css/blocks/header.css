@@ -3,6 +3,7 @@
   background-size: 80vh;
   margin: 30px;
   width: calc(100% - 60px);
+  max-width: none;
   height: calc(100vh - 60px);
   position: fixed;
   top: 0;

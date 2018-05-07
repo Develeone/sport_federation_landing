@@ -10,33 +10,35 @@
     height: 400px
 
     .list
+      overflow: hidden
+      white-space: nowrap
 
       .item
         height: 370px
-        width: 270px !important
         background: #afafbb
-        margin: 15px
         overflow: hidden
+        margin: 15px
+        display: inline-flex
+        white-space: nowrap
         position: relative
-        transition: width 0.3s
 
-        &:hover
-          width: 670px !important
+        &:hover .details
+          width: 400px
+
+        //.pic, .details
+        //  display: table-cell
 
         .pic
-          width: 270px
+          width: 30px
           height: 370px
-          position: absolute
-          top: 0
-          left: 0
           background-image: url("https://static1.squarespace.com/static/52dbd732e4b0ce276348c412/58eb6a511e5b6c098b91fd56/56a7de7eb2094382065948b0/1453842048003/SAMPLE_DSC_7185-771_v.1.00.jpg?format=750w")
           background-position: center
           background-size: cover
           cursor: pointer
 
           .info
+            width: 100%
             position: absolute
-            width: 270px
             bottom: 0
             left: 0
             color: white
@@ -58,14 +60,15 @@
               font-size: 12px
 
         .details
-          position: absolute
-          left: 270px
           height: 370px
-          width: 400px
+          width: 0
           background: $darkblue
           color: white
           white-space: normal
           padding-top: 15px
+          position: relative
+          overflow: hidden
+          transition: width 1s
 
           p
             width: 350px

@@ -1,21 +1,21 @@
 @import "../colors.sass"
 
 .target-audience
-  padding: 9% 15px 15px 0
+  padding-top: 9%
+  padding-left: 0
+  padding-right: 0
+  position: relative
+  margin-bottom: 20vh
 
-  .title-container
-    padding-left: 9%
+  @media (min-width: 1800px)
+    margin-bottom: 35vh
 
   .list
     margin-top: 10%
-    margin-left: 15%
-
-    @media (max-width: 768px)
-      margin-left: 0
 
     .item
       padding: 20px 30px
-      width: 70%
+      width: 80%
       margin-bottom: 0
       cursor: pointer
       transition: box-shadow 0.3s
@@ -64,8 +64,11 @@
     background: $gray
     padding: 0
 
-    .container
-      height: 90vh
+    width: 50vw
+
+    position: absolute
+    top: 10%
+    left: 50vw
 
     .image-row
       height: 90vh

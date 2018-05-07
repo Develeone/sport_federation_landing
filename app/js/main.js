@@ -63,18 +63,6 @@ $(document).ready(function () {
     $(".place .prev").click(() => ChangePlaceSlide("prev"));
     $(".place .next").click(() => ChangePlaceSlide("next"));
 
-
-    $('.trainers .list-container .list').slick({
-        dots: true,
-        infinite: false,
-        speed: 300,
-        slidesToShow: 1,
-        centerMode: true,
-        variableWidth: true,
-        initialSlide: 1
-    });
-
-
     $('.reviews .list').slick({
         dots: true,
         infinite: false,
@@ -84,6 +72,25 @@ $(document).ready(function () {
         initialSlide: 1
     });
 
+
+    var widthtmp = $(".trainers .list-container").width() / 4 - 30;
+
+    $(".trainers .item .pic").css("width", widthtmp+"px");
+
+
+
+    var $bl    = $(".trainers .list"),
+        mX     = 0;   // Real mouse position
+
+    $bl.mousemove(function(e) {
+        mX = e.pageX - this.offsetLeft - 200;
+
+        console.log(mX);
+    });
+
+    setInterval(function () {
+        $bl.scrollLeft(mX);
+    }, 10);
 
 });
 
