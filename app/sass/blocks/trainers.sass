@@ -4,17 +4,16 @@
   padding-top: 7%
 
   .list-container
-    width: 90%
+    margin: -30px
     margin-bottom: 7%
     margin-top: 3%
-    height: 400px
 
     .list
-      overflow: hidden
+      overflow: unset
       white-space: nowrap
+      transition: transform 0.5s
 
       .item
-        height: 370px
         background: #afafbb
         overflow: hidden
         margin: 15px
@@ -30,7 +29,7 @@
 
         .pic
           width: 30px
-          height: 370px
+          height: 30px
           background-image: url("https://static1.squarespace.com/static/52dbd732e4b0ce276348c412/58eb6a511e5b6c098b91fd56/56a7de7eb2094382065948b0/1453842048003/SAMPLE_DSC_7185-771_v.1.00.jpg?format=750w")
           background-position: center
           background-size: cover
@@ -60,7 +59,7 @@
               font-size: 12px
 
         .details
-          height: 370px
+          height: 100%
           width: 0
           background: $darkblue
           color: white

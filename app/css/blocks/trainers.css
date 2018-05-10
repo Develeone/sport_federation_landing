@@ -1,15 +1,14 @@
 .trainers {
   padding-top: 7%; }
   .trainers .list-container {
-    width: 90%;
+    margin: -30px;
     margin-bottom: 7%;
-    margin-top: 3%;
-    height: 400px; }
+    margin-top: 3%; }
     .trainers .list-container .list {
-      overflow: hidden;
-      white-space: nowrap; }
+      overflow: unset;
+      white-space: nowrap;
+      transition: transform 0.5s; }
       .trainers .list-container .list .item {
-        height: 370px;
         background: #afafbb;
         overflow: hidden;
         margin: 15px;
@@ -20,7 +19,7 @@
           width: 400px; }
         .trainers .list-container .list .item .pic {
           width: 30px;
-          height: 370px;
+          height: 30px;
           background-image: url("https://static1.squarespace.com/static/52dbd732e4b0ce276348c412/58eb6a511e5b6c098b91fd56/56a7de7eb2094382065948b0/1453842048003/SAMPLE_DSC_7185-771_v.1.00.jpg?format=750w");
           background-position: center;
           background-size: cover;
@@ -44,7 +43,7 @@
             .trainers .list-container .list .item .pic .info .status {
               font-size: 12px; }
         .trainers .list-container .list .item .details {
-          height: 370px;
+          height: 100%;
           width: 0;
           background: #06112F;
           color: white;

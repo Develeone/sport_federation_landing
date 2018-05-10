@@ -76,25 +76,43 @@ $(document).ready(function () {
     var widthtmp = $(".trainers .list-container").width() / 4 - 30;
 
     $(".trainers .item .pic").css("width", widthtmp+"px");
+    $(".trainers .item .pic").css("height", (widthtmp*1.5)+"px");
+    $(".trainers .item .details").css("height", (widthtmp*1.5)+"px");
 
 
-
-    var $bl    = $(".trainers .list"),
+    var isMouseOuted = true,
+        y      = $(".trainers .list-container").width(),
+        x      = widthtmp+200,
+        $bl    = $(".trainers .list"),
         mX     = 0;   // Real mouse position
 
-    $bl.mousemove(function(e) {
-        mX = e.pageX - this.offsetLeft - 200;
+    $bl.mouseover(function(e) {
+        isMouseOuted = false;
+    });
 
-        console.log(mX);
+    $bl.mousemove(function(e) {
+        isMouseOuted = false;
+        mX = e.pageX - this.offsetLeft;
+        mX = mX * (x/y); //Math.min(mX, x);
+    });
+
+    $bl.mouseout(function(e) {
+        isMouseOuted = true;
+
+        setTimeout(function(){
+            if (isMouseOuted)
+                mX = 0;
+        }, 1000);
     });
 
     setInterval(function () {
-        $bl.scrollLeft(mX);
-    }, 10);
+        $bl.css("transform","translateX(-"+mX+"px)");
+    }, 100);
 
 });
 
 var agreement = false;
+
 function switchAgreement() {
     agreement = !agreement;
     var checkbox = $(".agreement-checkbox");
