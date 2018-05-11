@@ -40,6 +40,9 @@
       @media (max-width: 900px) {
         .callback form .accept-conditions {
           font-size: 12px; } }
+      @media (min-width: 1400px) {
+        .callback form .accept-conditions {
+          font-size: 0.8vw; } }
       .callback form .accept-conditions img {
         margin-right: 5%; }
       .callback form .accept-conditions a {

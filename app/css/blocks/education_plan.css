@@ -29,10 +29,11 @@
         .education-plan .plan-container .number {
           font-size: 32px; } }
     .education-plan .plan-container .text {
-      padding-top: 5%;
+      padding-top: 6%;
       font-size: 1.6vw;
       line-height: 120%;
-      padding-right: 1%; }
+      padding-right: 1%;
+      padding-left: 3%; }
       @media (max-width: 900px) {
         .education-plan .plan-container .text {
           font-size: 18px;

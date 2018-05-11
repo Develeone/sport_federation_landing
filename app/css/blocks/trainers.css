@@ -16,7 +16,9 @@
         white-space: nowrap;
         position: relative; }
         .trainers .list-container .list .item:hover .details {
-          width: 400px; }
+          max-width: 1000px; }
+        .trainers .list-container .list .item:hover .info {
+          opacity: 0 !important; }
         .trainers .list-container .list .item .pic {
           width: 30px;
           height: 30px;
@@ -31,6 +33,8 @@
             left: 0;
             color: white;
             padding: 30px 15px 15px;
+            opacity: 1;
+            transition: opacity 1s;
             background: -moz-linear-gradient(top, transparent 0%, rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0.7) 100%);
             background: -webkit-linear-gradient(top, transparent 0%, rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0.7) 100%);
             background: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0.7) 100%); }
@@ -39,31 +43,31 @@
               margin: 0; }
             .trainers .list-container .list .item .pic .info .name {
               font-weight: bold;
-              font-size: 22px; }
+              font-size: 1.5vw; }
             .trainers .list-container .list .item .pic .info .status {
-              font-size: 12px; }
+              font-size: 1vw; }
         .trainers .list-container .list .item .details {
           height: 100%;
-          width: 0;
+          max-width: 0;
           background: #06112F;
           color: white;
           white-space: normal;
           padding-top: 15px;
           position: relative;
           overflow: hidden;
-          transition: width 1s; }
+          transition: max-width 1s; }
           .trainers .list-container .list .item .details p {
             width: 350px;
             margin-left: 25px; }
           .trainers .list-container .list .item .details .name {
-            font-size: 22px;
+            font-size: 1.5vw;
             font-weight: bold;
             margin-bottom: 5px; }
           .trainers .list-container .list .item .details .status,
           .trainers .list-container .list .item .details .description {
-            font-size: 14px; }
-          .trainers .list-container .list .item .details .description {
-            margin-top: 35px; }
+            font-size: 1vw; }
+          .trainers .list-container .list .item .details .skill {
+            font-size: 1.2vw; }
           .trainers .list-container .list .item .details .social-links {
             filter: brightness(50);
             position: absolute;

@@ -75,9 +75,14 @@ $(document).ready(function () {
 
     var widthtmp = $(".trainers .list-container").width() / 4 - 30;
 
-    $(".trainers .item .pic").css("width", widthtmp+"px");
-    $(".trainers .item .pic").css("height", (widthtmp*1.5)+"px");
-    $(".trainers .item .details").css("height", (widthtmp*1.5)+"px");
+    $(".trainers .item .pic").css("width", widthtmp + "px");
+    $(".trainers .item .pic").css("height", (widthtmp * 1.5) + "px");
+
+    $(".trainers .item .details").css("width", (widthtmp + widthtmp * 0.6625) + "px");
+    $(".trainers .item .details").css("height", (widthtmp * 1.5) + "px");
+
+    $(".trainers .item .details .description").css("margin-top", (widthtmp * 0.15) + "px");
+    $(".trainers .item .details .skill").css("margin-top", (widthtmp * 0.045) + "px");
 
 
     var isMouseOuted = true,

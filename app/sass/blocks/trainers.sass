@@ -21,11 +21,12 @@
         white-space: nowrap
         position: relative
 
-        &:hover .details
-          width: 400px
+        &:hover
+          .details
+            max-width: 1000px
 
-        //.pic, .details
-        //  display: table-cell
+          .info
+            opacity: 0 !important
 
         .pic
           width: 30px
@@ -43,6 +44,9 @@
             color: white
             padding: 30px 15px 15px
 
+            opacity: 1
+            transition: opacity 1s
+
             background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.5) 50%, rgba(0,0,0,0.7) 100%)
             background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.5) 50%,rgba(0,0,0,0.7) 100%)
             background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.5) 50%,rgba(0,0,0,0.7) 100%)
@@ -53,37 +57,37 @@
 
             .name
               font-weight: bold
-              font-size: 22px
+              font-size: 1.5vw
 
             .status
-              font-size: 12px
+              font-size: 1vw
 
         .details
           height: 100%
-          width: 0
+          max-width: 0
           background: $darkblue
           color: white
           white-space: normal
           padding-top: 15px
           position: relative
           overflow: hidden
-          transition: width 1s
+          transition: max-width 1s
 
           p
             width: 350px
             margin-left: 25px
 
           .name
-            font-size: 22px
+            font-size: 1.5vw
             font-weight: bold
             margin-bottom: 5px
 
           .status,
           .description
-            font-size: 14px
+            font-size: 1vw
 
-          .description
-            margin-top: 35px
+          .skill
+            font-size: 1.2vw
 
           .social-links
             filter: brightness(50)
