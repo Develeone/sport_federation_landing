@@ -1,5 +1,9 @@
 .reviews {
   font-family: Ubuntu; }
+  .reviews .slick-list {
+    margin: 0 !important; }
+  .reviews .slick-slide {
+    padding-left: 15px; }
   .reviews .comment {
     font-style: italic;
     margin-bottom: 20%; }

@@ -10,6 +10,9 @@
   @media (min-width: 1800px)
     margin-bottom: 35vh
 
+  .accordion-container
+    padding: 0
+
   .list
     margin-top: 10%
 
@@ -24,8 +27,7 @@
       @media (max-width: 768px)
         width: 100%
 
-      &::before
-        content: "⯆"
+      .triangle
         position: absolute
         right: 30px
         top: 20px
@@ -37,7 +39,7 @@
       &.active
         box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3)
 
-        &::before
+        .triangle
           transform: rotate(-60deg)
           filter: drop-shadow(-5px 0 5px rgba(0, 0, 0, 0.2))
 

@@ -36,9 +36,15 @@
         font-weight: 500;
         transition: color 0.2s;
         cursor: pointer; }
+        .next-courses .courses .item .inner-container .more-button .arrow {
+          padding-left: 30px;
+          margin-left: 30px;
+          background: url("/images/arrow_right_light.svg") no-repeat center;
+          background-size: contain;
+          position: relative;
+          width: 8%;
+          transition: all 0.2s; }
         .next-courses .courses .item .inner-container .more-button:hover {
           color: #FF006D; }
-        .next-courses .courses .item .inner-container .more-button .arrow {
-          font-size: 30px;
-          font-style: normal;
-          padding-left: 30px; }
+          .next-courses .courses .item .inner-container .more-button:hover .arrow {
+            background-image: url("/images/arrow_right_light_pink.svg"); }

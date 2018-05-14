@@ -2,12 +2,22 @@
 
 .place
   padding-top: 5%
+  position: relative
 
   H1
     width: 40%
 
     @media (max-width: 900px)
       width: 100%
+
+  .master-gym-logo-container
+    position: relative
+    height: 0
+    z-index: 9
+
+    img
+      width: 50%
+      margin-top: 15%
 
   .gallery-container
     padding: 0
@@ -19,11 +29,6 @@
 
     .left
       background: $gray
-
-      img
-        width: 50%
-        margin-left: 12%
-        margin-top: 15%
 
     .right
       background: gray

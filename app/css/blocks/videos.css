@@ -1,7 +1,10 @@
 .videos {
   font-family: Ubuntu;
   position: relative;
-  top: -20vh; }
+  top: -25vh; }
+  .videos .list .col-md-4 {
+    padding-left: 0;
+    padding-right: 30px; }
   .videos H1 {
     padding-bottom: 5%; }
   .videos .col-md-4 {
