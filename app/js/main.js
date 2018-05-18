@@ -50,18 +50,23 @@ $(document).ready(function () {
         $(".modal-conference").removeClass("active");
     });
 
+    $(".modal-callback .close-button").click(function () {
+        $(".modal-conference").removeClass("active");
+        $(".modal-callback").removeClass("active");
+    });
+
     $(".sale").click(function () {
         $(".modal-callback").addClass("active");
         $(".inner-container").hide();
     });
 
 
-    $(".recommended-by .prev").click(() => ChangeRecommendedBySlide("prev"));
-    $(".recommended-by .next").click(() => ChangeRecommendedBySlide("next"));
+    $(".recommended-by .prev").click(function() {ChangeRecommendedBySlide("prev")});
+    $(".recommended-by .next").click(function() {ChangeRecommendedBySlide("next")});
 
 
-    $(".place .prev").click(() => ChangePlaceSlide("prev"));
-    $(".place .next").click(() => ChangePlaceSlide("next"));
+    $(".place .prev").click(function() {ChangePlaceSlide("prev")});
+    $(".place .next").click(function() {ChangePlaceSlide("next")});
 
     $('.reviews .list').slick({
         dots: true,
@@ -154,6 +159,7 @@ function ChangeRecommendedBySlide(direction) {
 
 
 var currentPlaceSlideId = 1;
+
 function ChangePlaceSlide(direction) {
     var placeSlidesCount = $(".place .image").length;
 
@@ -163,5 +169,6 @@ function ChangePlaceSlide(direction) {
         currentPlaceSlideId = currentPlaceSlideId > 1 ? currentPlaceSlideId-1 : placeSlidesCount;
 
     $(".place .image").fadeOut();
+
     $(".place .image[data-id='"+currentPlaceSlideId+"']").fadeIn();
 }

@@ -2,15 +2,13 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
     <title>Спортивная Федерация</title>
 
     <!-- bootstrap -->
-    <link rel="stylesheet"
-          href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
-          integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
-          crossorigin="anonymous">
+    <link rel="stylesheet" href="css/bootstrap.css">
     <!-- /bootstrap -->
 
     <!-- Add the slick-theme.css if you want default styling -->
@@ -148,56 +146,64 @@
 </div>
 
 
-<div class="container-fluid header">
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-sm-3 logo"><img src="images/logo.svg"></div>
-            <div class="col-sm-8 contacts-container">
-                <span class="phone">8(902)-555-91-87</span>
-                <a href="https://facebook.com"><img src="images/social_icons/facebook.svg" class="social-icon"></a>
-                <a href="https://instagram.com"><img src="images/social_icons/instagram.svg" class="social-icon"></a>
+<div class="container header">
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-3 logo"><img src="images/logo.svg"></div>
+                    <div class="col-sm-8 contacts-container">
+                        <span class="phone">8(902)-555-91-87</span>
+                        <a href="https://facebook.com"><img src="images/social_icons/facebook.svg" class="social-icon"></a>
+                        <a href="https://instagram.com"><img src="images/social_icons/instagram.svg" class="social-icon"></a>
+                    </div>
+                    <div class="col-sm-1 menu-button">
+                        <img src="images/menu_button.svg" class="button">
+                    </div>
+                </div>
+                <div class="row promo">
+                    <div class="col-sm-12">
+                        <p class="subject">Образовательная программа</p>
+                        <p class="title"><span class="pink">/ Фитнес тренер</span> с нуля</p>
+                        <p class="description">Курсы для желающих освоить профессию<br />фитнес-инструктора</p>
+                        <p class="buttons-container">
+                            <button class="open-conference-modal">Записаться на курс</button>
+                            <span><img src="/images/arrow_right.svg" class="arrow"> или получить <b>консультацию</b></span>
+                        </p>
+                    </div>
+                </div>
             </div>
-            <div class="col-sm-1 menu-button">
-                <img src="images/menu_button.svg" class="button">
-            </div>
-        </div>
-        <div class="promo">
-            <p class="subject">Образовательная программа</p>
-            <p class="title"><span class="pink">/ Фитнес тренер</span> с нуля</p>
-            <p class="description">Курсы для желающих освоить профессию<br />фитнес-инструктора</p>
-            <p class="buttons-container">
-                <button class="open-conference-modal">Записаться на курс</button>
-                <span><img src="/images/arrow_right.svg" class="arrow"> или получить <b>консультацию</b></span>
-            </p>
         </div>
     </div>
 </div>
 
 <div class="container-fluid awards">
-    <div class="row">
-        <div class="col-sm-12">
-            <H1>Ближайшие курсы</H1>
-            <H6>Paragraph M</H6>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <H1>Ближайшие курсы</H1>
+                <H6>Paragraph M</H6>
 
-            <div class="container-fluid list">
-                <div class="row">
-                    <div class="col-sm-4 item">
-                        <div class="icon">
-                            <img src="images/icons/icon1.svg">
+                <div class="container-fluid list">
+                    <div class="row">
+                        <div class="col-sm-4 item">
+                            <div class="icon">
+                                <img src="images/icons/icon1.svg">
+                            </div>
+                            <p class="description">Международный сертификат фитнес-инструктора FISAF</p>
                         </div>
-                        <p class="description">Международный сертификат фитнес-инструктора FISAF</p>
-                    </div>
-                    <div class="col-sm-4 item">
-                        <div class="icon">
-                            <img src="images/icons/icon2.svg">
+                        <div class="col-sm-4 item">
+                            <div class="icon">
+                                <img src="images/icons/icon2.svg">
+                            </div>
+                            <p class="description">Text text text</p>
                         </div>
-                        <p class="description">Text text text</p>
-                    </div>
-                    <div class="col-sm-4 item">
-                        <div class="icon">
-                            <img src="images/icons/icon3.svg">
+                        <div class="col-sm-4 item">
+                            <div class="icon">
+                                <img src="images/icons/icon3.svg">
+                            </div>
+                            <p class="description">Text text text</p>
                         </div>
-                        <p class="description">Text text text</p>
                     </div>
                 </div>
             </div>
@@ -208,57 +214,63 @@
 <div class="container-fluid next-courses">
     <div class="row">
         <div class="col-sm-12">
-            <H1>Ближайшие курсы</H1>
-            <H6>Paragraph M</H6>
-
-            <div class="container-fluid courses">
+            <div class="container">
                 <div class="row">
-                    <div class="col-sm-12 col-md-4 item">
-                        <div class="inner-container">
-                            <div class="preview"></div>
-                            <p class="date">4 июня</p>
-                            <p class="title">Инструктор тренажерного зала</p>
-                            <div class="more-button">Подробнее <span class="arrow">→</span></div>
-                        </div>
-                    </div>
-                    <div class="col-sm-12 col-md-4 item">
-                        <div class="inner-container">
-                            <div class="preview"></div>
-                            <p class="date">4 июня</p>
-                            <p class="title">Инструктор тренажерного зала</p>
-                            <div class="more-button">Подробнее <span class="arrow">→</span></div>
-                        </div>
-                    </div>
-                    <div class="col-sm-12 col-md-4 item">
-                        <div class="inner-container">
-                            <div class="preview"></div>
-                            <p class="date">4 июня</p>
-                            <p class="title">Инструктор тренажерного зала</p>
-                            <div class="more-button">Подробнее <span class="arrow">→</span></div>
-                        </div>
-                    </div>
-                    <div class="col-sm-12 col-md-4 item">
-                        <div class="inner-container">
-                            <div class="preview"></div>
-                            <p class="date">4 июня</p>
-                            <p class="title">Инструктор тренажерного зала</p>
-                            <div class="more-button">Подробнее <span class="arrow">→</span></div>
-                        </div>
-                    </div>
-                    <div class="col-sm-12 col-md-4 item">
-                        <div class="inner-container">
-                            <div class="preview"></div>
-                            <p class="date">4 июня</p>
-                            <p class="title">Инструктор тренажерного зала</p>
-                            <div class="more-button">Подробнее <span class="arrow">→</span></div>
-                        </div>
-                    </div>
-                    <div class="col-sm-12 col-md-4 item">
-                        <div class="inner-container">
-                            <div class="preview"></div>
-                            <p class="date">4 июня</p>
-                            <p class="title">Инструктор тренажерного зала</p>
-                            <div class="more-button">Подробнее <span class="arrow">→</span></div>
+                    <div class="col-sm-12">
+                        <H1>Ближайшие курсы</H1>
+                        <H6>Paragraph M</H6>
+
+                        <div class="container-fluid courses">
+                            <div class="row">
+                                <div class="col-sm-12 col-md-4 item">
+                                    <div class="inner-container">
+                                        <div class="preview"></div>
+                                        <p class="date">4 июня</p>
+                                        <p class="title">Инструктор тренажерного зала</p>
+                                        <div class="more-button">Подробнее <span class="arrow"></span></div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 col-md-4 item">
+                                    <div class="inner-container">
+                                        <div class="preview"></div>
+                                        <p class="date">4 июня</p>
+                                        <p class="title">Инструктор тренажерного зала</p>
+                                        <div class="more-button">Подробнее <span class="arrow"></span></div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 col-md-4 item">
+                                    <div class="inner-container">
+                                        <div class="preview"></div>
+                                        <p class="date">4 июня</p>
+                                        <p class="title">Инструктор тренажерного зала</p>
+                                        <div class="more-button">Подробнее <span class="arrow"></span></div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 col-md-4 item">
+                                    <div class="inner-container">
+                                        <div class="preview"></div>
+                                        <p class="date">4 июня</p>
+                                        <p class="title">Инструктор тренажерного зала</p>
+                                        <div class="more-button">Подробнее <span class="arrow"></span></div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 col-md-4 item">
+                                    <div class="inner-container">
+                                        <div class="preview"></div>
+                                        <p class="date">4 июня</p>
+                                        <p class="title">Инструктор тренажерного зала</p>
+                                        <div class="more-button">Подробнее <span class="arrow"></span></div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 col-md-4 item">
+                                    <div class="inner-container">
+                                        <div class="preview"></div>
+                                        <p class="date">4 июня</p>
+                                        <p class="title">Инструктор тренажерного зала</p>
+                                        <div class="more-button">Подробнее <span class="arrow"></span></div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -268,94 +280,104 @@
 </div>
 
 <div class="container-fluid target-audience">
-    <div class="row">
-        <div class="col-sm-12 title-container">
-            <H1>Курсы идеально подойдут:</H1>
-            <H6>Paragraph M</H6>
-        </div>
+    <div class="tmp" style="position: relative;">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 title-container">
+                    <H1>Курсы идеально подойдут:</H1>
+                    <H6>Paragraph M</H6>
+                </div>
 
-        <div class="col-md-6">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-md-12 list">
-                        <div class="item">
-                            <p class="title">Новичкам</p>
-                            <p class="details">Которые сами еще не понимают даже как ходить, и, более того, ушами разгоняют водопады до сверхпозавчерашних усилий</p>
-                        </div>
-                        <div class="item active">
-                            <p class="title">Начинающим тренерам</p>
-                            <p class="details">Которые уже понимают как ходить, уже закончили ушами разгонять водопады до сверхпозавчерашних усилий но почему-то по-прежнему вызывают щипцы из fake-кальцоне</p>
-                        </div>
-                        <div class="item">
-                            <p class="title">Распредызателям</p>
-                            <p class="details">Которые уже понимают как ходить, уже закончили ушами разгонять водопады до сверхпозавчерашних усилий но почему-то по-прежнему вызывают щипцы из fake-кальцоне</p>
-                        </div>
-                        <div class="item">
-                            <p class="title">Ушлористикам</p>
-                            <p class="details">Которые уже понимают как ходить, уже закончили ушами разгонять водопады до сверхпозавчерашних усилий но почему-то по-прежнему вызывают щипцы из fake-кальцоне</p>
+                <div class="col-md-6 accordion-container">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12 list">
+                                <div class="item">
+                                    <p class="title">Новичкам</p>
+                                    <p class="details">У которых за плечами есть несколько работ и которые хотят существенно прокачать свой скилл в сфере веб-дизайна и добавить пару дюжин ярких работ в свое портфолио. </p>
+                                    <img src='/images/triangle.svg' class="triangle">
+                                </div>
+                                <div class="item active">
+                                    <p class="title">Начинающим тренерам</p>
+                                    <p class="details">У которых за плечами есть несколько работ и которые хотят существенно прокачать свой скилл в сфере веб-дизайна и добавить пару дюжин ярких работ в свое портфолио. </p>
+                                    <img src='/images/triangle.svg' class="triangle">
+                                </div>
+                                <div class="item">
+                                    <p class="title">Спортсменам</p>
+                                    <p class="details">У которых за плечами есть несколько работ и которые хотят существенно прокачать свой скилл в сфере веб-дизайна и добавить пару дюжин ярких работ в свое портфолио. </p>
+                                    <img src='/images/triangle.svg' class="triangle">
+                                </div>
+                                <div class="item">
+                                    <p class="title">Владельцам и менеджерам</p>
+                                    <p class="details">У которых за плечами есть несколько работ и которые хотят существенно прокачать свой скилл в сфере веб-дизайна и добавить пару дюжин ярких работ в свое портфолио. </p>
+                                    <img src='/images/triangle.svg' class="triangle">
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
+    
             </div>
         </div>
 
-        <div class="col-md-6 image-container">
-            <div class="container">
-                <div class="row image-row">
-                    <div class="col-sm-1"></div>
-                    <div class="col-sm-9 image">
-                    </div>
-                    <div class="col-sm-2"></div>
+
+        <div class="container image-container">
+            <div class="row image-row">
+                <div class="col-sm-1"></div>
+                <div class="col-sm-9 image">
                 </div>
+                <div class="col-sm-2"></div>
             </div>
         </div>
     </div>
 </div>
 
 <div class="container-fluid aims">
-    <div class="row">
-        <div class="col-sm-12">
-            <H1>Что дает прохождение курса?</H1>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <H1>Что дает прохождение курса?</H1>
 
-            <div class="container-fluid list">
-                <div class="row">
-                    <div class="col-sm-6 item">
-                        <img src="images/bullit.svg" class="bullit">
-                        Преимущество 1
+                <div class="container-fluid list">
+                    <div class="row">
+                        <div class="col-sm-6 item">
+                            <img src="images/bullit.svg" class="bullit">
+                            Преимущество 1
+                        </div>
+                        <div class="col-sm-6 item">
+                            <img src="images/bullit.svg" class="bullit">
+                            Преимущество 2
+                        </div>
                     </div>
-                    <div class="col-sm-6 item">
-                        <img src="images/bullit.svg" class="bullit">
-                        Преимущество 2
+                    <div class="row">
+                        <div class="col-sm-6 item">
+                            <img src="images/bullit.svg" class="bullit">
+                            Преимущество 1
+                        </div>
+                        <div class="col-sm-6 item">
+                            <img src="images/bullit.svg" class="bullit">
+                            Преимущество 2
+                        </div>
                     </div>
-                </div>
-                <div class="row">
-                    <div class="col-sm-6 item">
-                        <img src="images/bullit.svg" class="bullit">
-                        Преимущество 1
+                    <div class="row">
+                        <div class="col-sm-6 item">
+                            <img src="images/bullit.svg" class="bullit">
+                            Преимущество 1
+                        </div>
+                        <div class="col-sm-6 item">
+                            <img src="images/bullit.svg" class="bullit">
+                            Преимущество 2
+                        </div>
                     </div>
-                    <div class="col-sm-6 item">
-                        <img src="images/bullit.svg" class="bullit">
-                        Преимущество 2
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-sm-6 item">
-                        <img src="images/bullit.svg" class="bullit">
-                        Преимущество 1
-                    </div>
-                    <div class="col-sm-6 item">
-                        <img src="images/bullit.svg" class="bullit">
-                        Преимущество 2
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-sm-6 item">
-                        <img src="images/bullit.svg" class="bullit">
-                        Преимущество 1
-                    </div>
-                    <div class="col-sm-6 item">
-                        <img src="images/bullit.svg" class="bullit">
-                        Преимущество 2
+                    <div class="row">
+                        <div class="col-sm-6 item">
+                            <img src="images/bullit.svg" class="bullit">
+                            Преимущество 1
+                        </div>
+                        <div class="col-sm-6 item">
+                            <img src="images/bullit.svg" class="bullit">
+                            Преимущество 2
+                        </div>
                     </div>
                 </div>
             </div>
@@ -371,30 +393,30 @@
                     <div class="col-sm-12">
                         <H1>Остались вопросы?</H1>
                         <H4>Оставьте свой номер телефона и мы перезвоним вам в течение 15 минут</H4>
-
-                        <form class="container">
-                            <div class="row">
-                                <div class="col-sm-4">
-                                    <input type="text" placeholder="Имя">
-                                </div>
-
-                                <div class="col-sm-4">
-                                    <input type="text" placeholder="Телефон">
-                                </div>
-
-                                <div class="col-sm-4">
-                                    <input type="button" value="Отправить" class="button-send" disabled="disabled">
-
-                                    <p class="accept-conditions">
-                                        <img src="images/checkbox_unchecked.svg" align="left" onclick="switchAgreement()" class="agreement-checkbox">
-                                        Согласен с <a href="#">условиями обработки персональных данных</a>
-                                    </p>
-                                </div>
-                            </div>
-                        </form>
                     </div>
                 </div>
             </div>
+
+            <form class="container">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <input type="text" placeholder="Имя">
+                    </div>
+
+                    <div class="col-sm-4">
+                        <input type="text" placeholder="Телефон">
+                    </div>
+
+                    <div class="col-sm-4">
+                        <input type="button" value="Отправить" class="button-send" disabled="disabled">
+
+                        <p class="accept-conditions">
+                            <img src="images/checkbox_unchecked.svg" align="left" onclick="switchAgreement()" class="agreement-checkbox">
+                            Согласен с <a href="#">условиями обработки персональных данных</a>
+                        </p>
+                    </div>
+                </div>
+            </form>
         </div>
     </div>
 </div>
@@ -412,12 +434,33 @@
         </div>
 
         <div class="col-md-12 gallery-container">
+            <div class="container master-gym-logo-container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="images/master_gym.png">
+                    </div>
+                    <div class="col-md-6"></div>
+                </div>
+            </div>
+
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-sm-6 left"></div>
-                    <div class="col-sm-6 right"></div>
-                    <div class="button-prev"></div>
-                    <div class="button-next"></div>
+
+                    <div class="col-sm-6 left">
+                    </div>
+
+                    <div class="col-sm-6 right">
+                        <div class="image active" data-id="1" style="background-image: url('https://picsum.photos/800/800/?1')"></div>
+                        <div class="image"        data-id="2" style="background-image: url('https://picsum.photos/800/800/?2')"></div>
+                        <div class="image"        data-id="3" style="background-image: url('https://picsum.photos/800/800/?3')"></div>
+                        <div class="image"        data-id="4" style="background-image: url('https://picsum.photos/800/800/?4')"></div>
+                        <div class="image"        data-id="5" style="background-image: url('https://picsum.photos/800/800/?5')"></div>
+                        <div class="image"        data-id="6" style="background-image: url('https://picsum.photos/800/800/?6')"></div>
+                        <div class="image"        data-id="7" style="background-image: url('https://picsum.photos/800/800/?7')"></div>
+                    </div>
+
+                    <div class="prev"></div>
+                    <div class="next"></div>
                 </div>
             </div>
         </div>
@@ -425,45 +468,47 @@
 </div>
 
 <div class="container-fluid education-plan">
-    <div class="row">
-        <div class="col-md-12 plan-container">
-            <H1>Как проходит обучение?</H1>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 plan-container">
+                <H1>Как проходит обучение?</H1>
 
-            <div class="container-fluid padded-top">
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="container-fluid">
-                            <div class="row">
-                                <div class="col-sm-3 number">
-                                    01
-                                </div>
-                                <div class="col-sm-9 text">
-                                    <p>Записаться на сайте или по телефону</p>
-                                    <p><small>С вами свяжется менеджер<br />для уточнения деталей</small></p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="container-fluid">
-                            <div class="row">
-                                <div class="col-sm-3 number">
-                                    02
-                                </div>
-                                <div class="col-sm-9 text">
-                                    Обучение
+                <div class="container-fluid padded-top">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <div class="col-sm-3 number">
+                                        01
+                                    </div>
+                                    <div class="col-sm-9 text">
+                                        <p>Записаться на сайте или по телефону</p>
+                                        <p><small>С вами свяжется менеджер<br />для уточнения деталей</small></p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="container-fluid">
-                            <div class="row">
-                                <div class="col-sm-3 number">
-                                    03
+                        <div class="col-md-4">
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <div class="col-sm-3 number">
+                                        02
+                                    </div>
+                                    <div class="col-sm-9 text">
+                                        Обучение
+                                    </div>
                                 </div>
-                                <div class="col-sm-9 text">
-                                    Получение сертификата
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <div class="col-sm-3 number">
+                                        03
+                                    </div>
+                                    <div class="col-sm-9 text">
+                                        Получение сертификата
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -479,223 +524,146 @@
 </div>
 
 <div class="container-fluid recommended-by">
-    <div class="row">
-        <div class="col-md-6">
-            <div class="pic"></div>
-        </div>
-        <div class="col-md-6">
-            <H1>Нас рекомендуют</H1>
-            <p class="description">
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
-            </p>
-            <p class="about-person">
-                <span class="name">Имя Тренера</span>
-                <br />
-                <span class="status">Статус тренера</span>
-            </p>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5">
+                <div class="pic active" data-id="1" style="background-image:url('https://picsum.photos/400/800/?11')"></div>
+                <div class="pic"        data-id="2" style="background-image:url('https://picsum.photos/400/800/?12')"></div>
+                <div class="pic"        data-id="3" style="background-image:url('https://picsum.photos/400/800/?13')"></div>
+            </div>
+            <div class="col-md-1"></div>
+            <div class="col-md-6">
+                <H1>Нас рекомендуют</H1>
 
-            <div class="buttons">
-                <div class="prev"></div>
-                <div class="next"></div>
+                <div class="slide active" data-id="1">
+                    <p class="description">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    </p>
+                    <p class="about-person">
+                        <span class="name">Егор МакГрегор</span>
+                        <br />
+                        <span class="status">Бесспорный чемпион</span>
+                    </p>
+                </div>
+
+                <div class="slide" data-id="2">
+                    <p class="description">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    </p>
+                    <p class="about-person">
+                        <span class="name">Тренер Тренеров</span>
+                        <br />
+                        <span class="status">Тренированый тренер</span>
+                    </p>
+                </div>
+
+                <div class="slide" data-id="3">
+                    <p class="description">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    </p>
+                    <p class="about-person">
+                        <span class="name">Имя Тренера</span>
+                        <br />
+                        <span class="status">Статус тренера</span>
+                    </p>
+                </div>
+
+                <div class="buttons">
+                    <div class="prev"></div>
+                    <div class="next"></div>
+                </div>
             </div>
         </div>
     </div>
 </div>
 
-<div class="container-fluid trainers">
+<div class="container trainers">
     <div class="row">
         <div class="col-sm-12">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-12">
-                        <H1>Преподаватели-эксперты<br />в области спрота</H1>
+            <H1>Преподаватели-эксперты<br />в области спрота</H1>
+        </div>
+    </div>
+
+    <div class="row list-container">
+        <div class="col-sm-12 list">
+            <div class="item">
+                <div class="pic">
+                    <div class="info">
+                        <p class="name">Заугольнов Андрей</p>
+                        <p class="status">Статус тренера</p>
                     </div>
                 </div>
+                <div class="details">
+                    <p class="name">Заугольнов Андрей</p>
+                    <p class="status">Статус тренера</p>
+                    <p class="skill">/ &nbsp; 15 лет опыта</p>
+                    <p class="description">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    </p>
+                    <p class="social-links">
+                        <a href="https://facebook.com"><img src="images/social_icons/facebook.svg" class="social-icon"></a>
+                        <a href="https://instagram.com"><img src="images/social_icons/instagram.svg" class="social-icon"></a>
+                    </p>
+                </div>
             </div>
-        </div>
-        <div class="col-sm-12">
-            <div class="container-fluid list-container">
-                <div class="row list">
-                    <div class="item active">
-                        <div class="pic"></div>
-                        <div class="details">
-                            <p class="name">Имя Фамилия</p>
-                            <p class="status">Статус тренера</p>
-                            <p class="skill">/ &nbsp; 15 лет опыта</p>
-                            <p class="description">
-                                Это супер-тренер, и вы читаете его описание.
-                                <br />
-                                Как так произошло, что Lorem Ipsum искать дольше чем написать этот текст, а?
-                                Как так произошло, что Lorem Ipsum искать дольше чем написать этот текст, а?
-                            </p>
-                            <p class="social-links">
-                                <a href="https://facebook.com"><img src="images/social_icons/facebook.svg" class="social-icon"></a>
-                                <a href="https://instagram.com"><img src="images/social_icons/instagram.svg" class="social-icon"></a>
-                            </p>
-                        </div>
+            <div class="item">
+                <div class="pic">
+                    <div class="info">
+                        <p class="name">Заугольнов Андрей</p>
+                        <p class="status">Статус тренера</p>
                     </div>
-                    <div class="item">
-                        <div class="pic"></div>
-                        <div class="details">
-                            <p class="name">Имя Фамилия</p>
-                            <p class="status">Статус тренера</p>
-                            <p class="skill">/ &nbsp; 15 лет опыта</p>
-                            <p class="description">
-                                Это супер-тренер, и вы читаете его описание.
-                                <br />
-                                Как так произошло, что Lorem Ipsum искать дольше чем написать этот текст, а?
-                                Как так произошло, что Lorem Ipsum искать дольше чем написать этот текст, а?
-                            </p>
-                            <p class="social-links">
-                                <a href="https://facebook.com"><img src="images/social_icons/facebook.svg" class="social-icon"></a>
-                                <a href="https://instagram.com"><img src="images/social_icons/instagram.svg" class="social-icon"></a>
-                            </p>
-                        </div>
+                </div>
+                <div class="details">
+                    <p class="name">Заугольнов Андрей</p>
+                    <p class="status">Статус тренера</p>
+                    <p class="skill">/ &nbsp; 15 лет опыта</p>
+                    <p class="description">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    </p>
+                    <p class="social-links">
+                        <a href="https://facebook.com"><img src="images/social_icons/facebook.svg" class="social-icon"></a>
+                        <a href="https://instagram.com"><img src="images/social_icons/instagram.svg" class="social-icon"></a>
+                    </p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="pic">
+                    <div class="info">
+                        <p class="name">Заугольнов Андрей</p>
+                        <p class="status">Статус тренера</p>
                     </div>
-                    <div class="item">
-                        <div class="pic"></div>
-                        <div class="details">
-                            <p class="name">Имя Фамилия</p>
-                            <p class="status">Статус тренера</p>
-                            <p class="skill">/ &nbsp; 15 лет опыта</p>
-                            <p class="description">
-                                Это супер-тренер, и вы читаете его описание.
-                                <br />
-                                Как так произошло, что Lorem Ipsum искать дольше чем написать этот текст, а?
-                                Как так произошло, что Lorem Ipsum искать дольше чем написать этот текст, а?
-                            </p>
-                            <p class="social-links">
-                                <a href="https://facebook.com"><img src="images/social_icons/facebook.svg" class="social-icon"></a>
-                                <a href="https://instagram.com"><img src="images/social_icons/instagram.svg" class="social-icon"></a>
-                            </p>
-                        </div>
+                </div>
+                <div class="details">
+                    <p class="name">Заугольнов Андрей</p>
+                    <p class="status">Статус тренера</p>
+                    <p class="skill">/ &nbsp; 15 лет опыта</p>
+                    <p class="description">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    </p>
+                    <p class="social-links">
+                        <a href="https://facebook.com"><img src="images/social_icons/facebook.svg" class="social-icon"></a>
+                        <a href="https://instagram.com"><img src="images/social_icons/instagram.svg" class="social-icon"></a>
+                    </p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="pic">
+                    <div class="info">
+                        <p class="name">Заугольнов Андрей</p>
+                        <p class="status">Статус тренера</p>
                     </div>
-                    <div class="item">
-                        <div class="pic"></div>
-                        <div class="details">
-                            <p class="name">Имя Фамилия</p>
-                            <p class="status">Статус тренера</p>
-                            <p class="skill">/ &nbsp; 15 лет опыта</p>
-                            <p class="description">
-                                Это супер-тренер, и вы читаете его описание.
-                                <br />
-                                Как так произошло, что Lorem Ipsum искать дольше чем написать этот текст, а?
-                                Как так произошло, что Lorem Ipsum искать дольше чем написать этот текст, а?
-                            </p>
-                            <p class="social-links">
-                                <a href="https://facebook.com"><img src="images/social_icons/facebook.svg" class="social-icon"></a>
-                                <a href="https://instagram.com"><img src="images/social_icons/instagram.svg" class="social-icon"></a>
-                            </p>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="pic"></div>
-                        <div class="details">
-                            <p class="name">Имя Фамилия</p>
-                            <p class="status">Статус тренера</p>
-                            <p class="skill">/ &nbsp; 15 лет опыта</p>
-                            <p class="description">
-                                Это супер-тренер, и вы читаете его описание.
-                                <br />
-                                Как так произошло, что Lorem Ipsum искать дольше чем написать этот текст, а?
-                                Как так произошло, что Lorem Ipsum искать дольше чем написать этот текст, а?
-                            </p>
-                            <p class="social-links">
-                                <a href="https://facebook.com"><img src="images/social_icons/facebook.svg" class="social-icon"></a>
-                                <a href="https://instagram.com"><img src="images/social_icons/instagram.svg" class="social-icon"></a>
-                            </p>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="pic"></div>
-                        <div class="details">
-                            <p class="name">Имя Фамилия</p>
-                            <p class="status">Статус тренера</p>
-                            <p class="skill">/ &nbsp; 15 лет опыта</p>
-                            <p class="description">
-                                Это супер-тренер, и вы читаете его описание.
-                                <br />
-                                Как так произошло, что Lorem Ipsum искать дольше чем написать этот текст, а?
-                                Как так произошло, что Lorem Ipsum искать дольше чем написать этот текст, а?
-                            </p>
-                            <p class="social-links">
-                                <a href="https://facebook.com"><img src="images/social_icons/facebook.svg" class="social-icon"></a>
-                                <a href="https://instagram.com"><img src="images/social_icons/instagram.svg" class="social-icon"></a>
-                            </p>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="pic"></div>
-                        <div class="details">
-                            <p class="name">Имя Фамилия</p>
-                            <p class="status">Статус тренера</p>
-                            <p class="skill">/ &nbsp; 15 лет опыта</p>
-                            <p class="description">
-                                Это супер-тренер, и вы читаете его описание.
-                                <br />
-                                Как так произошло, что Lorem Ipsum искать дольше чем написать этот текст, а?
-                                Как так произошло, что Lorem Ipsum искать дольше чем написать этот текст, а?
-                            </p>
-                            <p class="social-links">
-                                <a href="https://facebook.com"><img src="images/social_icons/facebook.svg" class="social-icon"></a>
-                                <a href="https://instagram.com"><img src="images/social_icons/instagram.svg" class="social-icon"></a>
-                            </p>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="pic"></div>
-                        <div class="details">
-                            <p class="name">Имя Фамилия</p>
-                            <p class="status">Статус тренера</p>
-                            <p class="skill">/ &nbsp; 15 лет опыта</p>
-                            <p class="description">
-                                Это супер-тренер, и вы читаете его описание.
-                                <br />
-                                Как так произошло, что Lorem Ipsum искать дольше чем написать этот текст, а?
-                                Как так произошло, что Lorem Ipsum искать дольше чем написать этот текст, а?
-                            </p>
-                            <p class="social-links">
-                                <a href="https://facebook.com"><img src="images/social_icons/facebook.svg" class="social-icon"></a>
-                                <a href="https://instagram.com"><img src="images/social_icons/instagram.svg" class="social-icon"></a>
-                            </p>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="pic"></div>
-                        <div class="details">
-                            <p class="name">Имя Фамилия</p>
-                            <p class="status">Статус тренера</p>
-                            <p class="skill">/ &nbsp; 15 лет опыта</p>
-                            <p class="description">
-                                Это супер-тренер, и вы читаете его описание.
-                                <br />
-                                Как так произошло, что Lorem Ipsum искать дольше чем написать этот текст, а?
-                                Как так произошло, что Lorem Ipsum искать дольше чем написать этот текст, а?
-                            </p>
-                            <p class="social-links">
-                                <a href="https://facebook.com"><img src="images/social_icons/facebook.svg" class="social-icon"></a>
-                                <a href="https://instagram.com"><img src="images/social_icons/instagram.svg" class="social-icon"></a>
-                            </p>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="pic"></div>
-                        <div class="details">
-                            <p class="name">Имя Фамилия</p>
-                            <p class="status">Статус тренера</p>
-                            <p class="skill">/ &nbsp; 15 лет опыта</p>
-                            <p class="description">
-                                Это супер-тренер, и вы читаете его описание.
-                                <br />
-                                Как так произошло, что Lorem Ipsum искать дольше чем написать этот текст, а?
-                                Как так произошло, что Lorem Ipsum искать дольше чем написать этот текст, а?
-                            </p>
-                            <p class="social-links">
-                                <a href="https://facebook.com"><img src="images/social_icons/facebook.svg" class="social-icon"></a>
-                                <a href="https://instagram.com"><img src="images/social_icons/instagram.svg" class="social-icon"></a>
-                            </p>
-                        </div>
-                    </div>
+                </div>
+                <div class="details">
+                    <p class="name">Заугольнов Андрей</p>
+                    <p class="status">Статус тренера</p>
+                    <p class="skill">/ &nbsp; 15 лет опыта</p>
+                    <p class="description">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    </p>
+                    <p class="social-links">
+                        <a href="https://facebook.com"><img src="images/social_icons/facebook.svg" class="social-icon"></a>
+                        <a href="https://instagram.com"><img src="images/social_icons/instagram.svg" class="social-icon"></a>
+                    </p>
                 </div>
             </div>
         </div>
@@ -754,9 +722,9 @@
         </div>
         <div class="col-md-12">
             <div class="container-fluid">
-                <div class="row">
+                <div class="row list">
                     <div class="col-md-4">
-                        <iframe src="https://www.youtube.com/embed/TTCZy8C9sCY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                        <iframe src="https://www.youtube.com/embed/-O9dBuO7i80" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
                         <div class="person">
                             <div class="avatar"></div>
@@ -767,18 +735,18 @@
                         </div>
                     </div>
                     <div class="col-md-4">
-                        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/rnsimQHGWYg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                        <iframe src="https://www.youtube.com/embed/-O9dBuO7i80" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
                         <div class="person">
-                            <div class="avatar" style="background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSc3Zqr68-F7V3J_t91A7hx7Lu4sUlygJFRHd9h5WJrDO9DJkFvA')"></div>
+                            <div class="avatar"></div>
                             <div class="info">
-                                <p class="name">Владимир Путин</p>
-                                <p class="status">Молодец</p>
+                                <p class="name">Имя Фамилия</p>
+                                <p class="status">Статус</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-4">
-                        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/TTCZy8C9sCY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                        <iframe src="https://www.youtube.com/embed/-O9dBuO7i80" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
                         <div class="person">
                             <div class="avatar"></div>
@@ -797,55 +765,56 @@
 <div class="container reviews">
     <div class="row list">
         <div>
-            <p class="comment">Текст комментария длинный. В руках корзина, ну а в ней - резина. Моё желание спать перебарывает все желания есть.</p>
-            <p class="name">Наталья Евдокимова</p>
+            <p class="comment">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
+            </p>
+            <p class="name">Алексей Малицкий</p>
             <p class="status">
-                Некий неизвестный человек
+                Арт-директор Pacific MEDIA
                 <a href="https://instagram.com/">/ Instagram</a>
             </p>
             <div class="avatar"></div>
         </div>
         <div>
-            <p class="comment">Текст комментария длинный. В руках корзина, ну а в ней - резина. Моё желание спать перебарывает все желания есть.</p>
-            <p class="name">Наталья Евдокимова</p>
+            <p class="comment">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
+            </p>
+            <p class="name">Алексей Малицкий</p>
             <p class="status">
-                Некий неизвестный человек
+                Арт-директор Pacific MEDIA
                 <a href="https://instagram.com/">/ Instagram</a>
             </p>
             <div class="avatar"></div>
         </div>
         <div>
-            <p class="comment">Текст комментария длинный. В руках корзина, ну а в ней - резина. Моё желание спать перебарывает все желания есть.</p>
-            <p class="name">Наталья Евдокимова</p>
+            <p class="comment">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
+            </p>
+            <p class="name">Алексей Малицкий</p>
             <p class="status">
-                Некий неизвестный человек
+                Арт-директор Pacific MEDIA
                 <a href="https://instagram.com/">/ Instagram</a>
             </p>
             <div class="avatar"></div>
         </div>
         <div>
-            <p class="comment">Текст комментария длинный. В руках корзина, ну а в ней - резина. Моё желание спать перебарывает все желания есть.</p>
-            <p class="name">Наталья Евдокимова</p>
+            <p class="comment">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
+            </p>
+            <p class="name">Алексей Малицкий</p>
             <p class="status">
-                Некий неизвестный человек
+                Арт-директор Pacific MEDIA
                 <a href="https://instagram.com/">/ Instagram</a>
             </p>
             <div class="avatar"></div>
         </div>
         <div>
-            <p class="comment">Текст комментария длинный. В руках корзина, ну а в ней - резина. Моё желание спать перебарывает все желания есть.</p>
-            <p class="name">Наталья Евдокимова</p>
-            <p class="status">
-                Некий неизвестный человек
-                <a href="https://instagram.com/">/ Instagram</a>
+            <p class="comment">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
             </p>
-            <div class="avatar"></div>
-        </div>
-        <div>
-            <p class="comment">Текст комментария длинный. В руках корзина, ну а в ней - резина. Моё желание спать перебарывает все желания есть.</p>
-            <p class="name">Наталья Евдокимова</p>
+            <p class="name">Алексей Малицкий</p>
             <p class="status">
-                Некий неизвестный человек
+                Арт-директор Pacific MEDIA
                 <a href="https://instagram.com/">/ Instagram</a>
             </p>
             <div class="avatar"></div>
@@ -861,30 +830,30 @@
                     <div class="col-sm-12">
                         <H1>Остались вопросы?</H1>
                         <H4>Оставьте свой номер телефона и мы перезвоним вам в течение 15 минут</H4>
-
-                        <form class="container">
-                            <div class="row">
-                                <div class="col-sm-4">
-                                    <input type="text" placeholder="Имя">
-                                </div>
-
-                                <div class="col-sm-4">
-                                    <input type="text" placeholder="Телефон">
-                                </div>
-
-                                <div class="col-sm-4">
-                                    <input type="button" value="Отправить" class="button-send" disabled="disabled">
-
-                                    <p class="accept-conditions">
-                                        <img src="images/checkbox_unchecked.svg" align="left" onclick="switchAgreement()" class="agreement-checkbox">
-                                        Согласен с <a href="#">условиями обработки персональных данных</a>
-                                    </p>
-                                </div>
-                            </div>
-                        </form>
                     </div>
                 </div>
             </div>
+
+            <form class="container">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <input type="text" placeholder="Имя">
+                    </div>
+
+                    <div class="col-sm-4">
+                        <input type="text" placeholder="Телефон">
+                    </div>
+
+                    <div class="col-sm-4">
+                        <input type="button" value="Отправить" class="button-send" disabled="disabled">
+
+                        <p class="accept-conditions">
+                            <img src="images/checkbox_unchecked.svg" align="left" onclick="switchAgreement()" class="agreement-checkbox">
+                            Согласен с <a href="#">условиями обработки персональных данных</a>
+                        </p>
+                    </div>
+                </div>
+            </form>
         </div>
     </div>
 </div>
@@ -910,25 +879,31 @@
 
 <div class="container contacts">
     <div class="row">
-        <div class="col-sm-6" id="map">
-            <iframe
-                    src="https://yandex.ru/map-widget/v1/?um=constructor%3A3409e2734d78dc1e6aa288dba479931ee47a3611e81d044d29af98ca94aa7ba6&amp;source=constructor"
-                    width="100%"
-                    height="100%"
-                    frameborder="0">
-            </iframe>
-        </div>
+        <div class="col-sm-12">
+            <div class="container inner-container">
+                <div class="row">
+                    <div class="col-sm-6" id="map">
+                        <iframe
+                                src="https://yandex.ru/map-widget/v1/?um=constructor%3A3409e2734d78dc1e6aa288dba479931ee47a3611e81d044d29af98ca94aa7ba6&amp;source=constructor"
+                                width="100%"
+                                height="100%"
+                                frameborder="0">
+                        </iframe>
+                    </div>
 
-        <div class="col-md-6 text">
-            <H1>Контакты</H1>
-            <p class="phone">+7 (914) 790-30-67</p>
-            <p class="address"><b>Адрес:</b> Владивосток, ул. Нерчинская, 10</p>
-            <p class="schedule"><b>Режим работы:</b> 08:00 до 20:00</p>
-            <p class="social-icons">
-                <a href="#"><img src="images/social_icons/instagram_color.svg"></a>
-                <a href="#"><img src="images/social_icons/facebook_color.svg"></a>
-                <a href="#"><img src="images/social_icons/whatsapp_color.svg"></a>
-            </p>
+                    <div class="col-md-6 text">
+                    <H1>Контакты</H1>
+                    <p class="phone">+7 (914) 790-30-67</p>
+                    <p class="address"><b>Адрес:</b> Вадивосток пр-кт Вострецова 45</p>
+                    <p class="schedule"><b>Режим работы:</b> 08:00 до 18:00</p>
+                    <p class="social-icons">
+                        <a href="#"><img src="images/social_icons/instagram_color.svg"></a>
+                        <a href="#"><img src="images/social_icons/facebook_color.svg"></a>
+                        <a href="#"><img src="images/social_icons/whatsapp_color.svg"></a>
+                    </p>
+                </div>
+                </div>
+            </div>
         </div>
     </div>
 </div>
@@ -964,11 +939,9 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"
         integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
         crossorigin="anonymous"></script>
-        
-<script src="js/main.min.js"></script>
-
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/kenwheeler/slick/slick/slick.min.js"></script>
 
+<script src="js/main.min.js"></script>
 
 </body>
 </html>
